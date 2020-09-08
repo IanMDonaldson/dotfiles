@@ -1,0 +1,4 @@
+#!/bin/bash
+
+xmodmap /home/dragomundo/bin/.modmap
+

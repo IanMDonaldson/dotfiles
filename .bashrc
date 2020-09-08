@@ -16,4 +16,4 @@ fi
 
 
 # Put your fun stuff here.
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/dragomundo/.local/bin:/home/dragomundo/eclipse:/home/dragomundo/.cargo/bin
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/$USER/.local/bin

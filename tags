@@ -1,0 +1,788 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+${OBJ}	dwm/Makefile	/^${OBJ}: config.h config.mk$/;"	t
+-0,0 +1,65	dwmpatches/dwm-r1615-selfrestart.diff	/^@@ -0,0 +1,65 @@$/;"	h	newFile:b/selfrestart.c
+-103,7 +107,9	dwm/dwm-statuscmd-6.2.diff	/^@@ -103,7 +107,9 @@ static Button buttons[] = {$/;"	h	modifiedFile:a/config.def.h
+-103,7 +107,9	dwmpatches/dwm-statuscmd-6.2.diff	/^@@ -103,7 +107,9 @@ static Button buttons[] = {$/;"	h	modifiedFile:a/config.def.h
+-108,4 +111,3	dwmpatches/dwm-r1615-selfrestart.diff	/^@@ -108,4 +111,3 @@$/;"	h	modifiedFile:a/config.def.h
+-1104,6 +1117,7	dwmpatches/dwm-defaulttransparency-r1521.diff	/^@@ -1104,6 +1117,7 @@$/;"	h	modifiedFile:a/dwm.c
+-1112,7 +1186,7	dwmpatches/dwm-custom-6.1.diff	/^@@ -1112,7 +1186,7 @@ monocle(Monitor *m)$/;"	h	modifiedFile:a/dwm.c
+-1171,7 +1092,6	dwmpatches/dwm-custombar-6.1.diff	/^@@ -1171,7 +1092,6 @@$/;"	h	modifiedFile:dwmbase/dwm.c
+-119,6 +119,7	dwmpatches/dwm-fullgaps-6.2.diff	/^@@ -119,6 +119,7 @@ struct Monitor {$/;"	h	modifiedFile:a/dwm.c
+-12,14 +12,16	dwmpatches/dwm-defaulttransparency-r1521.diff	/^@@ -12,14 +12,16 @@$/;"	h	modifiedFile:a/config.def.h
+-1232,9 +1152,7	dwmpatches/dwm-custombar-6.1.diff	/^@@ -1232,9 +1152,7 @@$/;"	h	modifiedFile:dwmbase/dwm.c
+-1249,14 +1167,10	dwmpatches/dwm-custombar-6.1.diff	/^@@ -1249,14 +1167,10 @@$/;"	h	modifiedFile:dwmbase/dwm.c
+-1328,7 +1242,6	dwmpatches/dwm-custombar-6.1.diff	/^@@ -1328,7 +1242,6 @@$/;"	h	modifiedFile:dwmbase/dwm.c
+-1368,7 +1281,6	dwmpatches/dwm-custombar-6.1.diff	/^@@ -1368,7 +1281,6 @@$/;"	h	modifiedFile:dwmbase/dwm.c
+-1497,6 +1500,16	dwmpatches/dwm-fullgaps-6.2.diff	/^@@ -1497,6 +1500,16 @@ setfullscreen(Client *c, int fullscreen)$/;"	h	modifiedFile:a/dwm.c
+-15,6 +15,7	dwmpatches/dwm-custom-6.1.diff	/^@@ -15,6 +15,7 @@ static const unsigned char utfbyte[UTF_SIZ + 1] = {0x80,    0, 0xC0, 0xE0, 0xF/;"	h	modifiedFile:a/drw.c
+-15,7 +15,7	dwmpatches/dwm-custombar-6.1.diff	/^@@ -15,7 +15,7 @@$/;"	h	modifiedFile:dwmbase/config.def.h
+-1524,8 +1436,6	dwmpatches/dwm-custombar-6.1.diff	/^@@ -1524,8 +1436,6 @@$/;"	h	modifiedFile:dwmbase/dwm.c
+-1539,6 +1553,7	dwmpatches/dwm-defaulttransparency-r1521.diff	/^@@ -1539,6 +1553,7 @@$/;"	h	modifiedFile:a/dwm.c
+-156,6 +156,7	dwm/dwm-statuscmd-6.2.diff	/^@@ -156,6 +156,7 @@ static void clientmessage(XEvent *e);$/;"	h	modifiedFile:a/dwm.c
+-156,6 +156,7	dwmpatches/dwm-statuscmd-6.2.diff	/^@@ -156,6 +156,7 @@ static void clientmessage(XEvent *e);$/;"	h	modifiedFile:a/dwm.c
+-1570,6 +1644,9	dwmpatches/dwm-custom-6.1.diff	/^@@ -1570,6 +1644,9 @@ setup(void)$/;"	h	modifiedFile:a/dwm.c
+-1572,7 +1671,8	dwm/dwm-status2d-6.2.diff	/^@@ -1572,7 +1671,8 @@ setup(void)$/;"	h	modifiedFile:a/dwm.c
+-1572,7 +1671,8	dwmpatches/dwm-status2d-6.2.diff	/^@@ -1572,7 +1671,8 @@ setup(void)$/;"	h	modifiedFile:a/dwm.c
+-1586,9 +1496,6	dwmpatches/dwm-custombar-6.1.diff	/^@@ -1586,9 +1496,6 @@$/;"	h	modifiedFile:dwmbase/dwm.c
+-162,10 +162,7	dwmpatches/dwm-custombar-6.1.diff	/^@@ -162,10 +162,7 @@$/;"	h	modifiedFile:dwmbase/dwm.c
+-162,6 +162,7	dwmpatches/dwm-custom-6.1.diff	/^@@ -162,6 +162,7 @@ static void detach(Client *c);$/;"	h	modifiedFile:a/dwm.c
+-163,6 +163,7	dwm/dwm-status2d-6.2.diff	/^@@ -163,6 +163,7 @@ static void detach(Client *c);$/;"	h	modifiedFile:a/dwm.c
+-163,6 +163,7	dwmpatches/dwm-status2d-6.2.diff	/^@@ -163,6 +163,7 @@ static void detach(Client *c);$/;"	h	modifiedFile:a/dwm.c
+-1641,6 +1676,10	dwm/dwm-statuscmd-6.2.diff	/^@@ -1641,6 +1676,10 @@ spawn(const Arg *arg)$/;"	h	modifiedFile:a/dwm.c
+-1641,6 +1676,10	dwmpatches/dwm-statuscmd-6.2.diff	/^@@ -1641,6 +1676,10 @@ spawn(const Arg *arg)$/;"	h	modifiedFile:a/dwm.c
+-1673,26 +1750,29	dwmpatches/dwm-custom-6.1.diff	/^@@ -1673,26 +1750,29 @@ tagmon(const Arg *arg)$/;"	h	modifiedFile:a/dwm.c
+-1683,16 +1696,16	dwmpatches/dwm-fullgaps-6.2.diff	/^@@ -1683,16 +1696,16 @@ tile(Monitor *m)$/;"	h	modifiedFile:a/dwm.c
+-1690,15 +1597,6	dwmpatches/dwm-custombar-6.1.diff	/^@@ -1690,15 +1597,6 @@$/;"	h	modifiedFile:dwmbase/dwm.c
+-179,6 +179,7	dwmpatches/dwm-defaulttransparency-r1521.diff	/^@@ -179,6 +179,7 @@$/;"	h	modifiedFile:a/dwm.c
+-1793,36 +1691,16	dwmpatches/dwm-custombar-6.1.diff	/^@@ -1793,36 +1691,16 @@$/;"	h	modifiedFile:dwmbase/dwm.c
+-1987,8 +2026,10	dwm/dwm-statuscmd-6.2.diff	/^@@ -1987,8 +2026,10 @@ updatesizehints(Client *c)$/;"	h	modifiedFile:a/dwm.c
+-1987,8 +2026,10	dwmpatches/dwm-statuscmd-6.2.diff	/^@@ -1987,8 +2026,10 @@ updatesizehints(Client *c)$/;"	h	modifiedFile:a/dwm.c
+-1989,13 +1867,6	dwmpatches/dwm-custombar-6.1.diff	/^@@ -1989,13 +1867,6 @@$/;"	h	modifiedFile:dwmbase/dwm.c
+-199,6 +200,7	dwmpatches/dwm-fullgaps-6.2.diff	/^@@ -199,6 +200,7 @@ static void sendmon(Client *c, Monitor *m);$/;"	h	modifiedFile:a/dwm.c
+-2,6 +2,7	dwmpatches/dwm-custom-6.1.diff	/^@@ -2,6 +2,7 @@$/;"	h	modifiedFile:a/config.def.h
+-2,6 +2,7	dwmpatches/dwm-fullgaps-6.2.diff	/^@@ -2,6 +2,7 @@$/;"	h	modifiedFile:a/config.def.h
+-209,7 +206,6	dwmpatches/dwm-custombar-6.1.diff	/^@@ -209,7 +206,6 @@$/;"	h	modifiedFile:dwmbase/dwm.c
+-218,11 +214,9	dwmpatches/dwm-custombar-6.1.diff	/^@@ -218,11 +214,9 @@$/;"	h	modifiedFile:dwmbase/dwm.c
+-222,6 +223,15	dwmpatches/dwm-custom-6.1.diff	/^@@ -222,6 +223,15 @@ drw_setscheme(Drw *drw, Clr *scm)$/;"	h	modifiedFile:a/drw.c
+-237,6 +238,9	dwm/dwm-statuscmd-6.2.diff	/^@@ -237,6 +238,9 @@ static void zoom(const Arg *arg);$/;"	h	modifiedFile:a/dwm.c
+-237,6 +238,9	dwmpatches/dwm-statuscmd-6.2.diff	/^@@ -237,6 +238,9 @@ static void zoom(const Arg *arg);$/;"	h	modifiedFile:a/dwm.c
+-237,7 +238,7	dwm/dwm-status2d-6.2.diff	/^@@ -237,7 +238,7 @@ static void zoom(const Arg *arg);$/;"	h	modifiedFile:a/dwm.c
+-237,7 +238,7	dwmpatches/dwm-status2d-6.2.diff	/^@@ -237,7 +238,7 @@ static void zoom(const Arg *arg);$/;"	h	modifiedFile:a/dwm.c
+-239,7 +240,7	dwmpatches/dwm-custom-6.1.diff	/^@@ -239,7 +240,7 @@ static const char broken[] = "broken";$/;"	h	modifiedFile:a/dwm.c
+-249,7 +243,6	dwmpatches/dwm-custombar-6.1.diff	/^@@ -249,7 +243,6 @@$/;"	h	modifiedFile:dwmbase/dwm.c
+-263,6 +264,7	dwmpatches/dwm-custom-6.1.diff	/^@@ -263,6 +264,7 @@ static Atom wmatom[WMLast], netatom[NetLast];$/;"	h	modifiedFile:a/dwm.c
+-364,6 +374,30	dwmpatches/dwm-custom-6.1.diff	/^@@ -364,6 +374,30 @@ drw_text(Drw *drw, int x, int y, unsigned int w, unsigned int h, unsigned i/;"	h	modifiedFile:a/drw.c
+-421,6 +425,7	dwm/dwm-statuscmd-6.2.diff	/^@@ -421,6 +425,7 @@ buttonpress(XEvent *e)$/;"	h	modifiedFile:a/dwm.c
+-421,6 +425,7	dwmpatches/dwm-statuscmd-6.2.diff	/^@@ -421,6 +425,7 @@ buttonpress(XEvent *e)$/;"	h	modifiedFile:a/dwm.c
+-430,10 +432,16	dwmpatches/dwm-custom-6.1.diff	/^@@ -430,10 +432,16 @@ buttonpress(XEvent *e)$/;"	h	modifiedFile:a/dwm.c
+-439,9 +444,26	dwm/dwm-statuscmd-6.2.diff	/^@@ -439,9 +444,26 @@ buttonpress(XEvent *e)$/;"	h	modifiedFile:a/dwm.c
+-439,9 +444,26	dwmpatches/dwm-statuscmd-6.2.diff	/^@@ -439,9 +444,26 @@ buttonpress(XEvent *e)$/;"	h	modifiedFile:a/dwm.c
+-48,10 +48,12	dwmpatches/dwm-custom-6.1.diff	/^@@ -48,10 +48,12 @@ void drw_cur_free(Drw *drw, Cur *cursor);$/;"	h	modifiedFile:a/drw.h
+-483,7 +484,7	dwm/dwm-status2d-6.2.diff	/^@@ -483,7 +484,7 @@ cleanup(void)$/;"	h	modifiedFile:a/dwm.c
+-483,7 +484,7	dwmpatches/dwm-status2d-6.2.diff	/^@@ -483,7 +484,7 @@ cleanup(void)$/;"	h	modifiedFile:a/dwm.c
+-52,6 +54,9	dwmpatches/dwm-defaulttransparency-r1521.diff	/^@@ -52,6 +54,9 @@$/;"	h	modifiedFile:a/config.def.h
+-54,6 +54,8	dwmpatches/dwm-r1615-selfrestart.diff	/^@@ -54,6 +54,8 @@$/;"	h	modifiedFile:a/config.def.h
+-574,8 +567,7	dwmpatches/dwm-custombar-6.1.diff	/^@@ -574,8 +567,7 @@$/;"	h	modifiedFile:dwmbase/dwm.c
+-58,7 +58,7	dwmpatches/dwm-defaulttransparency-r1521.diff	/^@@ -58,7 +58,7 @@$/;"	h	modifiedFile:a/dwm.c
+-59,6 +59,10	dwm/dwm-statuscmd-6.2.diff	/^@@ -59,6 +59,10 @@ static char dmenumon[2] = "0"; \/* component of dmenucmd, manipulated in spaw/;"	h	modifiedFile:a/config.def.h
+-59,6 +59,10	dwmpatches/dwm-statuscmd-6.2.diff	/^@@ -59,6 +59,10 @@ static char dmenumon[2] = "0"; \/* component of dmenucmd, manipulated in spaw/;"	h	modifiedFile:a/config.def.h
+-59,7 +59,7	dwmpatches/dwm-custom-6.1.diff	/^@@ -59,7 +59,7 @@$/;"	h	modifiedFile:a/dwm.c
+-61,7 +61,6	dwmpatches/dwm-custombar-6.1.diff	/^@@ -61,7 +61,6 @@$/;"	h	modifiedFile:dwmbase/config.def.h
+-627,6 +649,19	dwm/dwm-statuscmd-6.2.diff	/^@@ -627,6 +649,19 @@ configurerequest(XEvent *e)$/;"	h	modifiedFile:a/dwm.c
+-627,6 +649,19	dwmpatches/dwm-statuscmd-6.2.diff	/^@@ -627,6 +649,19 @@ configurerequest(XEvent *e)$/;"	h	modifiedFile:a/dwm.c
+-638,6 +640,7	dwmpatches/dwm-fullgaps-6.2.diff	/^@@ -638,6 +640,7 @@ createmon(void)$/;"	h	modifiedFile:a/dwm.c
+-690,6 +691,114	dwm/dwm-status2d-6.2.diff	/^@@ -690,6 +691,114 @@ dirtomon(int dir)$/;"	h	modifiedFile:a/dwm.c
+-690,6 +691,114	dwmpatches/dwm-status2d-6.2.diff	/^@@ -690,6 +691,114 @@ dirtomon(int dir)$/;"	h	modifiedFile:a/dwm.c
+-695,51 +703,117	dwmpatches/dwm-custom-6.1.diff	/^@@ -695,51 +703,117 @@ dirtomon(int dir)$/;"	h	modifiedFile:a/dwm.c
+-701,9 +802,7	dwm/dwm-status2d-6.2.diff	/^@@ -701,9 +802,7 @@ drawbar(Monitor *m)$/;"	h	modifiedFile:a/dwm.c
+-701,9 +802,7	dwmpatches/dwm-status2d-6.2.diff	/^@@ -701,9 +802,7 @@ drawbar(Monitor *m)$/;"	h	modifiedFile:a/dwm.c
+-702,67 +694,6	dwmpatches/dwm-custombar-6.1.diff	/^@@ -702,67 +694,6 @@$/;"	h	modifiedFile:dwmbase/dwm.c
+-781,15 +712,6	dwmpatches/dwm-custombar-6.1.diff	/^@@ -781,15 +712,6 @@$/;"	h	modifiedFile:dwmbase/dwm.c
+-813,8 +735,7	dwmpatches/dwm-custombar-6.1.diff	/^@@ -813,8 +735,7 @@$/;"	h	modifiedFile:dwmbase/dwm.c
+-816,6 +817,18	dwmpatches/dwm-defaulttransparency-r1521.diff	/^@@ -816,6 +817,18 @@$/;"	h	modifiedFile:a/dwm.c
+-84,6 +85,9	dwmpatches/dwm-fullgaps-6.2.diff	/^@@ -84,6 +85,9 @@ static Key keys[] = {$/;"	h	modifiedFile:a/config.def.h
+-89,6 +91,7	dwmpatches/dwm-r1615-selfrestart.diff	/^@@ -89,6 +91,7 @@$/;"	h	modifiedFile:a/config.def.h
+.c.o	dwm/Makefile	/^.c.o:$/;"	t
+<F8>	neovim/init.vim	/^nmap <F8> :Tagbartoggle<CR>$/;"	m
+Arg	dwm/dwm.c	/^} Arg;$/;"	t	typeref:union:__anon80d5a0d5060a	file:
+BETWEEN	dwm/util.h	/^#define BETWEEN(/;"	d
+BUGS	dwm/dwm.1	/^.SH BUGS$/;"	s	title:DWM
+BUTTONMASK	dwm/dwm.c	/^#define BUTTONMASK /;"	d	file:
+Block	dwmblocks/dwmblocks.c	/^} Block;$/;"	t	typeref:struct:__anonb31399110108	file:
+Button	dwm/dwm.c	/^} Button;$/;"	t	typeref:struct:__anon80d5a0d50708	file:
+CC	dwm/config.mk	/^CC = cc$/;"	m
+CFLAGS	dwm/config.mk	/^CFLAGS   = -std=c99 -pedantic -Wall -Wno-deprecated-declarations -Os ${INCS} ${CPPFLAGS}$/;"	m
+CLEANMASK	dwm/dwm.c	/^#define CLEANMASK(/;"	d	file:
+CMDLENGTH	dwmblocks/dwmblocks.c	/^#define CMDLENGTH	/;"	d	file:
+CPPFLAGS	dwm/config.mk	/^CPPFLAGS = -D_DEFAULT_SOURCE -D_BSD_SOURCE -D_POSIX_C_SOURCE=2 -DVERSION=\\"${VERSION}\\" ${XINE/;"	m
+CUSTOMIZATION	dwm/dwm.1	/^.SH CUSTOMIZATION$/;"	s	title:DWM
+CleanSafeDict	Scripts/polybar/player-mpris-tail.py	/^class CleanSafeDict(dict):$/;"	c
+CleanSafeDict	polybar/script/player-mpris-tail.py	/^class CleanSafeDict(dict):$/;"	c
+Client	dwm/dwm.c	/^struct Client {$/;"	s	file:
+Client	dwm/dwm.c	/^typedef struct Client Client;$/;"	t	typeref:struct:Client	file:
+ClkClientWin	dwm/dwm.c	/^       ClkClientWin, ClkRootWin, ClkLast }; \/* clicks *\/$/;"	e	enum:__anon80d5a0d50503	file:
+ClkLast	dwm/dwm.c	/^       ClkClientWin, ClkRootWin, ClkLast }; \/* clicks *\/$/;"	e	enum:__anon80d5a0d50503	file:
+ClkLtSymbol	dwm/dwm.c	/^enum { ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle,$/;"	e	enum:__anon80d5a0d50503	file:
+ClkRootWin	dwm/dwm.c	/^       ClkClientWin, ClkRootWin, ClkLast }; \/* clicks *\/$/;"	e	enum:__anon80d5a0d50503	file:
+ClkStatusText	dwm/dwm.c	/^enum { ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle,$/;"	e	enum:__anon80d5a0d50503	file:
+ClkTagBar	dwm/dwm.c	/^enum { ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle,$/;"	e	enum:__anon80d5a0d50503	file:
+ClkWinTitle	dwm/dwm.c	/^enum { ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle,$/;"	e	enum:__anon80d5a0d50503	file:
+Clr	dwm/drw.h	/^typedef XftColor Clr;$/;"	t	typeref:typename:XftColor
+ColBg	dwm/drw.h	/^enum { ColFg, ColBg, ColBorder }; \/* Clr scheme index *\/$/;"	e	enum:__anon80d30d7f0203
+ColBorder	dwm/drw.h	/^enum { ColFg, ColBg, ColBorder }; \/* Clr scheme index *\/$/;"	e	enum:__anon80d30d7f0203
+ColFg	dwm/drw.h	/^enum { ColFg, ColBg, ColBorder }; \/* Clr scheme index *\/$/;"	e	enum:__anon80d30d7f0203
+Cur	dwm/drw.h	/^} Cur;$/;"	t	typeref:struct:__anon80d30d7f0108
+CurLast	dwm/dwm.c	/^enum { CurNormal, CurResize, CurMove, CurLast }; \/* cursor *\/$/;"	e	enum:__anon80d5a0d50103	file:
+CurMove	dwm/dwm.c	/^enum { CurNormal, CurResize, CurMove, CurLast }; \/* cursor *\/$/;"	e	enum:__anon80d5a0d50103	file:
+CurNormal	dwm/dwm.c	/^enum { CurNormal, CurResize, CurMove, CurLast }; \/* cursor *\/$/;"	e	enum:__anon80d5a0d50103	file:
+CurResize	dwm/dwm.c	/^enum { CurNormal, CurResize, CurMove, CurLast }; \/* cursor *\/$/;"	e	enum:__anon80d5a0d50103	file:
+DESCRIPTION	dwm/dwm.1	/^.SH DESCRIPTION$/;"	s	title:DWM
+DWM	dwm/dwm.1	/^.TH DWM 1 dwm\\-VERSION$/;"	t
+Drw	dwm/drw.h	/^} Drw;$/;"	t	typeref:struct:__anon80d30d7f0308
+EOF	bin/pfetch	/^                    done <<-EOF$/;"	h
+EOF	bin/pfetch	/^            IFS='	.' read -r _ s _ <<-EOF$/;"	h
+EOF	bin/pfetch	/^            IFS=' =' read -r _ distro openbsd_ver _ <<-EOF$/;"	h
+EOF	bin/pfetch	/^            IFS='( )' read -r _ _ _ _ mem_used _ mem_full <<-EOF$/;"	h
+EOF	bin/pfetch	/^            done <<-EOF$/;"	h
+EOF	bin/pfetch	/^            read_ascii 1 <<-EOF$/;"	h
+EOF	bin/pfetch	/^            read_ascii 2 <<-EOF$/;"	h
+EOF	bin/pfetch	/^            read_ascii 3 <<-EOF$/;"	h
+EOF	bin/pfetch	/^            read_ascii 4 <<-EOF$/;"	h
+EOF	bin/pfetch	/^            read_ascii 5 <<-EOF$/;"	h
+EOF	bin/pfetch	/^            read_ascii 6 <<-EOF$/;"	h
+EOF	bin/pfetch	/^            read_ascii <<-EOF$/;"	h
+EOF	bin/pfetch	/^    done <<-EOF$/;"	h
+EOF	bin/pfetch	/^    read -r os kernel arch <<-EOF$/;"	h
+FORMAT_REGEX	Scripts/polybar/player-mpris-tail.py	/^FORMAT_REGEX = re.compile(r'(\\{:(?P<tag>.*?)(:(?P<format>[wt])(?P<formatlen>\\d+))?:(?P<text>.*/;"	v
+FORMAT_REGEX	polybar/script/player-mpris-tail.py	/^FORMAT_REGEX = re.compile(r'(\\{:(?P<tag>.*?)(:(?P<format>[wt])(?P<formatlen>\\d+))?:(?P<text>.*/;"	v
+FORMAT_STRING	Scripts/polybar/player-mpris-tail.py	/^FORMAT_STRING = '{icon} {artist} - {title}'$/;"	v
+FORMAT_STRING	Scripts/polybar/player-mpris-tail.py	/^FORMAT_STRING = re.sub(r'%\\{(.*?)\\}(.*?)%\\{(.*?)\\}', r'􏿿p􏿿\\1􏿿p􏿿\\2􏿿p􏿿\\3􏿿/;"	v
+FORMAT_STRING	polybar/script/player-mpris-tail.py	/^FORMAT_STRING = '{icon} {artist} - {title}'$/;"	v
+FORMAT_STRING	polybar/script/player-mpris-tail.py	/^FORMAT_STRING = re.sub(r'%\\{(.*?)\\}(.*?)%\\{(.*?)\\}', r'􏿿p􏿿\\1􏿿p􏿿\\2􏿿p􏿿\\3􏿿/;"	v
+FORMAT_TAG_REGEX	Scripts/polybar/player-mpris-tail.py	/^FORMAT_TAG_REGEX = re.compile(r'(?P<format>[wt])(?P<formatlen>\\d+)')$/;"	v
+FORMAT_TAG_REGEX	polybar/script/player-mpris-tail.py	/^FORMAT_TAG_REGEX = re.compile(r'(?P<format>[wt])(?P<formatlen>\\d+)')$/;"	v
+FREETYPEINC	dwm/config.mk	/^FREETYPEINC = \/usr\/include\/freetype2$/;"	m
+FREETYPELIBS	dwm/config.mk	/^FREETYPELIBS = -lfontconfig -lXft$/;"	m
+Fnt	dwm/drw.h	/^typedef struct Fnt {$/;"	s
+Fnt	dwm/drw.h	/^} Fnt;$/;"	t	typeref:struct:Fnt
+HEIGHT	dwm/dwm.c	/^#define HEIGHT(/;"	d	file:
+ICON_NONE	Scripts/polybar/player-mpris-tail.py	/^ICON_NONE = args.icon_none$/;"	v
+ICON_NONE	polybar/script/player-mpris-tail.py	/^ICON_NONE = args.icon_none$/;"	v
+ICON_PAUSED	Scripts/polybar/player-mpris-tail.py	/^ICON_PAUSED = args.icon_paused$/;"	v
+ICON_PAUSED	polybar/script/player-mpris-tail.py	/^ICON_PAUSED = args.icon_paused$/;"	v
+ICON_PLAYING	Scripts/polybar/player-mpris-tail.py	/^ICON_PLAYING = args.icon_playing$/;"	v
+ICON_PLAYING	polybar/script/player-mpris-tail.py	/^ICON_PLAYING = args.icon_playing$/;"	v
+ICON_STOPPED	Scripts/polybar/player-mpris-tail.py	/^ICON_STOPPED = args.icon_stopped$/;"	v
+ICON_STOPPED	polybar/script/player-mpris-tail.py	/^ICON_STOPPED = args.icon_stopped$/;"	v
+INCS	dwm/config.mk	/^INCS = -I${X11INC} -I${FREETYPEINC}$/;"	m
+INTERSECT	dwm/dwm.c	/^#define INTERSECT(/;"	d	file:
+ISSUES	dwm/dwm.1	/^.SH ISSUES$/;"	s	title:DWM
+ISVISIBLE	dwm/dwm.c	/^#define ISVISIBLE(/;"	d	file:
+Key	dwm/dwm.c	/^} Key;$/;"	t	typeref:struct:__anon80d5a0d50808	file:
+LDFLAGS	dwm/config.mk	/^LDFLAGS  = ${LIBS}$/;"	m
+LENGTH	dwm/dwm.c	/^#define LENGTH(/;"	d	file:
+LENGTH	dwmblocks/dwmblocks.c	/^#define LENGTH(/;"	d	file:
+LIBS	dwm/config.mk	/^LIBS = -L${X11LIB} -lX11 ${XINERAMALIBS} ${FREETYPELIBS}$/;"	m
+Layout	dwm/dwm.c	/^} Layout;$/;"	t	typeref:struct:__anon80d5a0d50908	file:
+MANPREFIX	dwm/config.mk	/^MANPREFIX = ${PREFIX}\/share\/man$/;"	m
+MAX	dwm/util.h	/^#define MAX(/;"	d
+MIN	dwm/util.h	/^#define MIN(/;"	d
+MODKEY	dwm/config.def.h	/^#define MODKEY /;"	d
+MODKEY	dwm/config.h	/^#define MODKEY /;"	d
+MOUSEMASK	dwm/dwm.c	/^#define MOUSEMASK /;"	d	file:
+Monitor	dwm/dwm.c	/^struct Monitor {$/;"	s	file:
+Monitor	dwm/dwm.c	/^typedef struct Monitor Monitor;$/;"	t	typeref:struct:Monitor	file:
+NAME	dwm/dwm.1	/^.SH NAME$/;"	s	title:DWM
+NEEDS_POSITION	Scripts/polybar/player-mpris-tail.py	/^NEEDS_POSITION = "{position}" in FORMAT_STRING$/;"	v
+NEEDS_POSITION	polybar/script/player-mpris-tail.py	/^NEEDS_POSITION = "{position}" in FORMAT_STRING$/;"	v
+NetActiveWindow	dwm/dwm.c	/^       NetWMFullscreen, NetActiveWindow, NetWMWindowType,$/;"	e	enum:__anon80d5a0d50303	file:
+NetClientList	dwm/dwm.c	/^       NetWMWindowTypeDialog, NetClientList, NetLast }; \/* EWMH atoms *\/$/;"	e	enum:__anon80d5a0d50303	file:
+NetLast	dwm/dwm.c	/^       NetWMWindowTypeDialog, NetClientList, NetLast }; \/* EWMH atoms *\/$/;"	e	enum:__anon80d5a0d50303	file:
+NetSupported	dwm/dwm.c	/^enum { NetSupported, NetWMName, NetWMState, NetWMCheck,$/;"	e	enum:__anon80d5a0d50303	file:
+NetWMCheck	dwm/dwm.c	/^enum { NetSupported, NetWMName, NetWMState, NetWMCheck,$/;"	e	enum:__anon80d5a0d50303	file:
+NetWMFullscreen	dwm/dwm.c	/^       NetWMFullscreen, NetActiveWindow, NetWMWindowType,$/;"	e	enum:__anon80d5a0d50303	file:
+NetWMName	dwm/dwm.c	/^enum { NetSupported, NetWMName, NetWMState, NetWMCheck,$/;"	e	enum:__anon80d5a0d50303	file:
+NetWMState	dwm/dwm.c	/^enum { NetSupported, NetWMName, NetWMState, NetWMCheck,$/;"	e	enum:__anon80d5a0d50303	file:
+NetWMWindowType	dwm/dwm.c	/^       NetWMFullscreen, NetActiveWindow, NetWMWindowType,$/;"	e	enum:__anon80d5a0d50303	file:
+NetWMWindowTypeDialog	dwm/dwm.c	/^       NetWMWindowTypeDialog, NetClientList, NetLast }; \/* EWMH atoms *\/$/;"	e	enum:__anon80d5a0d50303	file:
+NumTags	dwm/dwm.c	/^struct NumTags { char limitexceeded[LENGTH(tags) > 31 ? -1 : 1]; };$/;"	s	file:
+OBJ	dwm/Makefile	/^OBJ = ${SRC:.c=.o}$/;"	m
+OPTIONS	dwm/dwm.1	/^.SH OPTIONS$/;"	s	title:DWM
+PREFIX	dwm/config.mk	/^PREFIX = \/usr\/local$/;"	m
+PREFIX	dwmblocks/Makefile	/^PREFIX ?= \/usr\/local$/;"	m
+Player	Scripts/polybar/player-mpris-tail.py	/^class Player:$/;"	c
+Player	polybar/script/player-mpris-tail.py	/^class Player:$/;"	c
+PlayerManager	Scripts/polybar/player-mpris-tail.py	/^class PlayerManager:$/;"	c
+PlayerManager	polybar/script/player-mpris-tail.py	/^class PlayerManager:$/;"	c
+Rule	dwm/dwm.c	/^} Rule;$/;"	t	typeref:struct:__anon80d5a0d50a08	file:
+SAFE_TAG_REGEX	Scripts/polybar/player-mpris-tail.py	/^SAFE_TAG_REGEX = re.compile(r'[{}]')$/;"	v
+SAFE_TAG_REGEX	polybar/script/player-mpris-tail.py	/^SAFE_TAG_REGEX = re.compile(r'[{}]')$/;"	v
+SEE	dwm/dwm.1	/^.SH SEE ALSO$/;"	s	title:DWM
+SHCMD	dwm/config.def.h	/^#define SHCMD(/;"	d
+SHCMD	dwm/config.h	/^#define SHCMD(/;"	d
+SRC	dwm/Makefile	/^SRC = drw.c dwm.c util.c$/;"	m
+SYNOPSIS	dwm/dwm.1	/^.SH SYNOPSIS$/;"	s	title:DWM
+SchemeNorm	dwm/dwm.c	/^enum { SchemeNorm, SchemeSel }; \/* color schemes *\/$/;"	e	enum:__anon80d5a0d50203	file:
+SchemeSel	dwm/dwm.c	/^enum { SchemeNorm, SchemeSel }; \/* color schemes *\/$/;"	e	enum:__anon80d5a0d50203	file:
+TAGKEYS	dwm/config.def.h	/^#define TAGKEYS(/;"	d
+TAGKEYS	dwm/config.h	/^#define TAGKEYS(/;"	d
+TAGMASK	dwm/dwm.c	/^#define TAGMASK /;"	d	file:
+TEXTW	dwm/dwm.c	/^#define TEXTW(/;"	d	file:
+TRUNCATE_STRING	Scripts/polybar/player-mpris-tail.py	/^TRUNCATE_STRING = args.truncate_text$/;"	v
+TRUNCATE_STRING	polybar/script/player-mpris-tail.py	/^TRUNCATE_STRING = args.truncate_text$/;"	v
+Test	polybar/script/py_spotify_listener.py	/^class Test(dbus.service.Object):$/;"	c
+USAGE	dwm/dwm.1	/^.SH USAGE$/;"	s	title:DWM
+UTF_INVALID	dwm/drw.c	/^#define UTF_INVALID /;"	d	file:
+UTF_SIZ	dwm/drw.c	/^#define UTF_SIZ /;"	d	file:
+VERSION	dwm/config.mk	/^VERSION = 6.2$/;"	m
+WIDTH	dwm/dwm.c	/^#define WIDTH(/;"	d	file:
+WMDelete	dwm/dwm.c	/^enum { WMProtocols, WMDelete, WMState, WMTakeFocus, WMLast }; \/* default atoms *\/$/;"	e	enum:__anon80d5a0d50403	file:
+WMLast	dwm/dwm.c	/^enum { WMProtocols, WMDelete, WMState, WMTakeFocus, WMLast }; \/* default atoms *\/$/;"	e	enum:__anon80d5a0d50403	file:
+WMProtocols	dwm/dwm.c	/^enum { WMProtocols, WMDelete, WMState, WMTakeFocus, WMLast }; \/* default atoms *\/$/;"	e	enum:__anon80d5a0d50403	file:
+WMState	dwm/dwm.c	/^enum { WMProtocols, WMDelete, WMState, WMTakeFocus, WMLast }; \/* default atoms *\/$/;"	e	enum:__anon80d5a0d50403	file:
+WMTakeFocus	dwm/dwm.c	/^enum { WMProtocols, WMDelete, WMState, WMTakeFocus, WMLast }; \/* default atoms *\/$/;"	e	enum:__anon80d5a0d50403	file:
+X11INC	dwm/config.mk	/^X11INC = \/usr\/X11R6\/include$/;"	m
+X11LIB	dwm/config.mk	/^X11LIB = \/usr\/X11R6\/lib$/;"	m
+XINERAMAFLAGS	dwm/config.mk	/^XINERAMAFLAGS = -DXINERAMA$/;"	m
+XINERAMALIBS	dwm/config.mk	/^XINERAMALIBS  = -lXinerama$/;"	m
+__anon80d30d7f0108	dwm/drw.h	/^typedef struct {$/;"	s
+__anon80d30d7f0203	dwm/drw.h	/^enum { ColFg, ColBg, ColBorder }; \/* Clr scheme index *\/$/;"	g
+__anon80d30d7f0308	dwm/drw.h	/^typedef struct {$/;"	s
+__anon80d5a0d50103	dwm/dwm.c	/^enum { CurNormal, CurResize, CurMove, CurLast }; \/* cursor *\/$/;"	g	file:
+__anon80d5a0d50203	dwm/dwm.c	/^enum { SchemeNorm, SchemeSel }; \/* color schemes *\/$/;"	g	file:
+__anon80d5a0d50303	dwm/dwm.c	/^enum { NetSupported, NetWMName, NetWMState, NetWMCheck,$/;"	g	file:
+__anon80d5a0d50403	dwm/dwm.c	/^enum { WMProtocols, WMDelete, WMState, WMTakeFocus, WMLast }; \/* default atoms *\/$/;"	g	file:
+__anon80d5a0d50503	dwm/dwm.c	/^enum { ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle,$/;"	g	file:
+__anon80d5a0d5060a	dwm/dwm.c	/^typedef union {$/;"	u	file:
+__anon80d5a0d50708	dwm/dwm.c	/^typedef struct {$/;"	s	file:
+__anon80d5a0d50808	dwm/dwm.c	/^typedef struct {$/;"	s	file:
+__anon80d5a0d50908	dwm/dwm.c	/^typedef struct {$/;"	s	file:
+__anon80d5a0d50a08	dwm/dwm.c	/^typedef struct {$/;"	s	file:
+__anonb31399110108	dwmblocks/dwmblocks.c	/^typedef struct {$/;"	s	file:
+__init__	Scripts/polybar/player-mpris-tail.py	/^    def __init__(self, blacklist = [], connect = True):$/;"	m	class:PlayerManager
+__init__	Scripts/polybar/player-mpris-tail.py	/^    def __init__(self, session_bus, bus_name, owner = None, connect = True, _print = None):$/;"	m	class:Player
+__init__	polybar/script/player-mpris-tail.py	/^    def __init__(self, blacklist = [], connect = True):$/;"	m	class:PlayerManager
+__init__	polybar/script/player-mpris-tail.py	/^    def __init__(self, session_bus, bus_name, owner = None, connect = True, _print = None):$/;"	m	class:Player
+__init__	polybar/script/py_spotify_listener.py	/^    def __init__(self, bus_name, object_path, loop):$/;"	m	class:Test
+__missing__	Scripts/polybar/player-mpris-tail.py	/^    def __missing__(self, key):$/;"	m	class:CleanSafeDict
+__missing__	polybar/script/player-mpris-tail.py	/^    def __missing__(self, key):$/;"	m	class:CleanSafeDict
+_dbusValueToPython	Scripts/polybar/player-mpris-tail.py	/^def _dbusValueToPython(value):$/;"	f
+_dbusValueToPython	polybar/script/player-mpris-tail.py	/^def _dbusValueToPython(value):$/;"	f
+_getDuration	Scripts/polybar/player-mpris-tail.py	/^def _getDuration(t: int):$/;"	f
+_getDuration	polybar/script/player-mpris-tail.py	/^def _getDuration(t: int):$/;"	f
+_getPosition	Scripts/polybar/player-mpris-tail.py	/^    def _getPosition(self):$/;"	m	class:Player
+_getPosition	polybar/script/player-mpris-tail.py	/^    def _getPosition(self):$/;"	m	class:Player
+_getProperty	Scripts/polybar/player-mpris-tail.py	/^def _getProperty(properties, property, default = None):$/;"	f
+_getProperty	polybar/script/player-mpris-tail.py	/^def _getProperty(properties, property, default = None):$/;"	f
+_last_status	Scripts/polybar/player-mpris-tail.py	/^_last_status = ''$/;"	v
+_last_status	polybar/script/player-mpris-tail.py	/^_last_status = ''$/;"	v
+_parseMetadata	Scripts/polybar/player-mpris-tail.py	/^    def _parseMetadata(self):$/;"	m	class:Player
+_parseMetadata	polybar/script/player-mpris-tail.py	/^    def _parseMetadata(self):$/;"	m	class:Player
+_positionTimer	Scripts/polybar/player-mpris-tail.py	/^    def _positionTimer(self):$/;"	m	class:Player
+_positionTimer	polybar/script/player-mpris-tail.py	/^    def _positionTimer(self):$/;"	m	class:Player
+_print	Scripts/polybar/player-mpris-tail.py	/^    def _print(self, status):$/;"	m	class:Player
+_print	polybar/script/player-mpris-tail.py	/^    def _print(self, status):$/;"	m	class:Player
+_printFlush	Scripts/polybar/player-mpris-tail.py	/^def _printFlush(status, **kwargs):$/;"	f
+_printFlush	polybar/script/player-mpris-tail.py	/^def _printFlush(status, **kwargs):$/;"	f
+_statusReplace	Scripts/polybar/player-mpris-tail.py	/^    def _statusReplace(self, match, metadata):$/;"	m	class:Player
+_statusReplace	polybar/script/player-mpris-tail.py	/^    def _statusReplace(self, match, metadata):$/;"	m	class:Player
+a/config.def.h	dwm/dwm-statuscmd-6.2.diff	/^--- a\/config.def.h$/;"	m
+a/config.def.h	dwmpatches/dwm-custom-6.1.diff	/^--- a\/config.def.h$/;"	m
+a/config.def.h	dwmpatches/dwm-defaulttransparency-r1521.diff	/^--- a\/config.def.h	Fri Jun 04 11:41:16 2010 +0100$/;"	m
+a/config.def.h	dwmpatches/dwm-fullgaps-6.2.diff	/^--- a\/config.def.h$/;"	m
+a/config.def.h	dwmpatches/dwm-r1615-selfrestart.diff	/^--- a\/config.def.h	Tue Dec 04 21:54:44 2012 +0200$/;"	m
+a/config.def.h	dwmpatches/dwm-statuscmd-6.2.diff	/^--- a\/config.def.h$/;"	m
+a/drw.c	dwmpatches/dwm-custom-6.1.diff	/^--- a\/drw.c$/;"	m
+a/drw.h	dwmpatches/dwm-custom-6.1.diff	/^--- a\/drw.h$/;"	m
+a/dwm.c	dwm/dwm-status2d-6.2.diff	/^--- a\/dwm.c$/;"	m
+a/dwm.c	dwm/dwm-statuscmd-6.2.diff	/^--- a\/dwm.c$/;"	m
+a/dwm.c	dwmpatches/dwm-custom-6.1.diff	/^--- a\/dwm.c$/;"	m
+a/dwm.c	dwmpatches/dwm-defaulttransparency-r1521.diff	/^--- a\/dwm.c	Fri Jun 04 11:41:16 2010 +0100$/;"	m
+a/dwm.c	dwmpatches/dwm-fullgaps-6.2.diff	/^--- a\/dwm.c$/;"	m
+a/dwm.c	dwmpatches/dwm-status2d-6.2.diff	/^--- a\/dwm.c$/;"	m
+a/dwm.c	dwmpatches/dwm-statuscmd-6.2.diff	/^--- a\/dwm.c$/;"	m
+addPlayer	Scripts/polybar/player-mpris-tail.py	/^    def addPlayer(self, bus_name, owner = None):$/;"	m	class:PlayerManager
+addPlayer	polybar/script/player-mpris-tail.py	/^    def addPlayer(self, bus_name, owner = None):$/;"	m	class:PlayerManager
+adduserandpass	larbs.sh	/^adduserandpass() { \\$/;"	f
+all	dwm/Makefile	/^all: options dwm$/;"	t
+applyrules	dwm/dwm.c	/^applyrules(Client *c)$/;"	f	typeref:typename:void
+applysizehints	dwm/dwm.c	/^applysizehints(Client *c, int *x, int *y, int *w, int *h, int interact)$/;"	f	typeref:typename:int
+arg	dwm/dwm.c	/^	const Arg arg;$/;"	m	struct:__anon80d5a0d50708	typeref:typename:const Arg	file:
+arg	dwm/dwm.c	/^	const Arg arg;$/;"	m	struct:__anon80d5a0d50808	typeref:typename:const Arg	file:
+args	Scripts/polybar/player-mpris-tail.py	/^args = parser.parse_args()$/;"	v
+args	polybar/script/player-mpris-tail.py	/^args = parser.parse_args()$/;"	v
+args	polybar/script/spotify_status.py	/^args = parser.parse_args()$/;"	v
+arrange	dwm/dwm.c	/^	void (*arrange)(Monitor *);$/;"	m	struct:__anon80d5a0d50908	typeref:typename:void (*)(Monitor *)	file:
+arrange	dwm/dwm.c	/^arrange(Monitor *m)$/;"	f	typeref:typename:void
+arrangemon	dwm/dwm.c	/^arrangemon(Monitor *m)$/;"	f	typeref:typename:void
+artist	polybar/script/spotify_status.py	/^    artist = metadata['xesam:artist'][0]$/;"	v
+attach	dwm/dwm.c	/^attach(Client *c)$/;"	f	typeref:typename:void
+attachstack	dwm/dwm.c	/^attachstack(Client *c)$/;"	f	typeref:typename:void
+aurinstall	larbs.sh	/^aurinstall() { \\$/;"	f
+b/selfrestart.c	dwmpatches/dwm-r1615-selfrestart.diff	/^+++ b\/selfrestart.c	Tue Dec 04 21:54:44 2012 +0200$/;"	n
+barwin	dwm/dwm.c	/^	Window barwin;$/;"	m	struct:Monitor	typeref:typename:Window	file:
+baseh	dwm/dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	typeref:typename:int	file:
+basew	dwm/dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	typeref:typename:int	file:
+bh	dwm/dwm.c	/^static int bh, blw = 0;      \/* bar geometry *\/$/;"	v	typeref:typename:int	file:
+blocks	dwmblocks/blocks.h	/^static const Block blocks[] = {$/;"	v	typeref:typename:const Block[]
+blw	dwm/dwm.c	/^static int bh, blw = 0;      \/* bar geometry *\/$/;"	v	typeref:typename:int	file:
+borderpx	dwm/config.def.h	/^static const unsigned int borderpx  = 1;        \/* border pixel of windows *\/$/;"	v	typeref:typename:const unsigned int
+borderpx	dwm/config.h	/^static const unsigned int borderpx  = 1;        \/* border pixel of windows *\/$/;"	v	typeref:typename:const unsigned int
+broken	dwm/dwm.c	/^static const char broken[] = "broken";$/;"	v	typeref:typename:const char[]	file:
+bus	polybar/script/py_spotify_listener.py	/^bus = dbus.SessionBus()$/;"	v
+busNameIsAPlayer	Scripts/polybar/player-mpris-tail.py	/^    def busNameIsAPlayer(self, bus_name):$/;"	m	class:PlayerManager
+busNameIsAPlayer	polybar/script/player-mpris-tail.py	/^    def busNameIsAPlayer(self, bus_name):$/;"	m	class:PlayerManager
+bus_name	polybar/script/py_spotify_listener.py	/^bus_name = dbus.service.BusName('sub.domain.tld', bus=bus)$/;"	v
+button	dwm/dwm.c	/^	unsigned int button;$/;"	m	struct:__anon80d5a0d50708	typeref:typename:unsigned int	file:
+buttonpress	dwm/dwm.c	/^buttonpress(XEvent *e)$/;"	f	typeref:typename:void
+buttons	dwm/config.def.h	/^static Button buttons[] = {$/;"	v	typeref:typename:Button[]
+buttons	dwm/config.h	/^static Button buttons[] = {$/;"	v	typeref:typename:Button[]
+bw	dwm/dwm.c	/^	int bw, oldbw;$/;"	m	struct:Client	typeref:typename:int	file:
+by	dwm/dwm.c	/^	int by;               \/* bar geometry *\/$/;"	m	struct:Monitor	typeref:typename:int	file:
+catchall_handler	polybar/script/py_spotify_listener.py	/^def catchall_handler(*args, **kwargs):$/;"	f
+changePlayerOwner	Scripts/polybar/player-mpris-tail.py	/^    def changePlayerOwner(self, bus_name, old_owner, new_owner):$/;"	m	class:PlayerManager
+changePlayerOwner	polybar/script/player-mpris-tail.py	/^    def changePlayerOwner(self, bus_name, old_owner, new_owner):$/;"	m	class:PlayerManager
+checkPositionTimer	Scripts/polybar/player-mpris-tail.py	/^    def checkPositionTimer(self):$/;"	m	class:Player
+checkPositionTimer	polybar/script/player-mpris-tail.py	/^    def checkPositionTimer(self):$/;"	m	class:Player
+checkotherwm	dwm/dwm.c	/^checkotherwm(void)$/;"	f	typeref:typename:void
+class	dwm/dwm.c	/^	const char *class;$/;"	m	struct:__anon80d5a0d50a08	typeref:typename:const char *	file:
+clean	dwm/Makefile	/^clean:$/;"	t
+clean	dwmblocks/Makefile	/^clean:$/;"	t
+cleanup	bin/pipesanimation	/^cleanup() {$/;"	f
+cleanup	dwm/dwm.c	/^cleanup(void)$/;"	f	typeref:typename:void
+cleanupmon	dwm/dwm.c	/^cleanupmon(Monitor *mon)$/;"	f	typeref:typename:void
+click	dwm/dwm.c	/^	unsigned int click;$/;"	m	struct:__anon80d5a0d50708	typeref:typename:unsigned int	file:
+clientmessage	dwm/dwm.c	/^clientmessage(XEvent *e)$/;"	f	typeref:typename:void
+clients	dwm/dwm.c	/^	Client *clients;$/;"	m	struct:Monitor	typeref:typename:Client *	file:
+col_cyan	dwm/config.def.h	/^static const char col_cyan[]        = "#005577";$/;"	v	typeref:typename:const char[]
+col_cyan	dwm/config.h	/^static const char col_cyan[]        = "#005577";$/;"	v	typeref:typename:const char[]
+col_gray1	dwm/config.def.h	/^static const char col_gray1[]       = "#222222";$/;"	v	typeref:typename:const char[]
+col_gray1	dwm/config.h	/^static const char col_gray1[]       = "#3b4252";$/;"	v	typeref:typename:const char[]
+col_gray2	dwm/config.def.h	/^static const char col_gray2[]       = "#444444";$/;"	v	typeref:typename:const char[]
+col_gray2	dwm/config.h	/^static const char col_gray2[]       = "#444444";$/;"	v	typeref:typename:const char[]
+col_gray3	dwm/config.def.h	/^static const char col_gray3[]       = "#bbbbbb";$/;"	v	typeref:typename:const char[]
+col_gray3	dwm/config.h	/^static const char col_gray3[]       = "#bbbbbb";$/;"	v	typeref:typename:const char[]
+col_gray4	dwm/config.def.h	/^static const char col_gray4[]       = "#eeeeee";$/;"	v	typeref:typename:const char[]
+col_gray4	dwm/config.h	/^static const char col_gray4[]       = "#eeeeee";$/;"	v	typeref:typename:const char[]
+colors	dwm/config.def.h	/^static const char *colors[][3]      = {$/;"	v	typeref:typename:const char * [][3]
+colors	dwm/config.h	/^static const char *colors[][3]      = {$/;"	v	typeref:typename:const char * [][3]
+command	dwmblocks/dwmblocks.c	/^	char* command;$/;"	m	struct:__anonb31399110108	typeref:typename:char *	file:
+config.h	dwm/Makefile	/^config.h:$/;"	t
+configure	dwm/dwm.c	/^configure(Client *c)$/;"	f	typeref:typename:void
+configurenotify	dwm/dwm.c	/^configurenotify(XEvent *e)$/;"	f	typeref:typename:void
+configurerequest	dwm/dwm.c	/^configurerequest(XEvent *e)$/;"	f	typeref:typename:void
+conky_launch	Scripts/polybar/polybar_wrapper	/^conky_launch() {$/;"	f
+connect	Scripts/polybar/player-mpris-tail.py	/^    def connect(self):$/;"	m	class:Player
+connect	Scripts/polybar/player-mpris-tail.py	/^    def connect(self):$/;"	m	class:PlayerManager
+connect	polybar/script/player-mpris-tail.py	/^    def connect(self):$/;"	m	class:Player
+connect	polybar/script/player-mpris-tail.py	/^    def connect(self):$/;"	m	class:PlayerManager
+copyvalidchars	dwm/dwm.c	/^copyvalidchars(char *text, char *rawtext)$/;"	f	typeref:typename:void
+createmon	dwm/dwm.c	/^createmon(void)$/;"	f	typeref:typename:Monitor *
+current_player	Scripts/polybar/player-mpris-tail.py	/^    current_player = player_manager.getCurrentPlayer()$/;"	v
+current_player	polybar/script/player-mpris-tail.py	/^    current_player = player_manager.getCurrentPlayer()$/;"	v
+cursor	dwm/drw.h	/^	Cursor cursor;$/;"	m	struct:__anon80d30d7f0108	typeref:typename:Cursor
+cursor	dwm/dwm.c	/^static Cur *cursor[CurLast];$/;"	v	typeref:typename:Cur * []	file:
+delim	dwmblocks/blocks.h	/^static char delim = ' ';$/;"	v	typeref:typename:char
+destroynotify	dwm/dwm.c	/^destroynotify(XEvent *e)$/;"	f	typeref:typename:void
+detach	dwm/dwm.c	/^detach(Client *c)$/;"	f	typeref:typename:void
+detachstack	dwm/dwm.c	/^detachstack(Client *c)$/;"	f	typeref:typename:void
+die	dwm/util.c	/^die(const char *fmt, ...) {$/;"	f	typeref:typename:void
+dirtomon	dwm/dwm.c	/^dirtomon(int dir)$/;"	f	typeref:typename:Monitor *
+disconnect	Scripts/polybar/player-mpris-tail.py	/^    def disconnect(self):$/;"	m	class:Player
+disconnect	polybar/script/player-mpris-tail.py	/^    def disconnect(self):$/;"	m	class:Player
+dist	dwm/Makefile	/^dist: clean$/;"	t
+dmenucmd	dwm/config.def.h	/^static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray/;"	v	typeref:typename:const char * []
+dmenucmd	dwm/config.h	/^static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray/;"	v	typeref:typename:const char * []
+dmenufont	dwm/config.def.h	/^static const char dmenufont[]       = { "Fira Code:size=12" }; $/;"	v	typeref:typename:const char[]
+dmenufont	dwm/config.h	/^static const char dmenufont[]       = { "Hack Nerd Font Mono:size=12" }; $/;"	v	typeref:typename:const char[]
+dmenumon	dwm/config.def.h	/^static char dmenumon[2] = "0"; \/* component of dmenucmd, manipulated in spawn() *\/$/;"	v	typeref:typename:char[2]
+dmenumon	dwm/config.h	/^static char dmenumon[2] = "0"; \/* component of dmenucmd, manipulated in spawn() *\/$/;"	v	typeref:typename:char[2]
+dpy	dwm/drw.h	/^	Display *dpy;$/;"	m	struct:Fnt	typeref:typename:Display *
+dpy	dwm/drw.h	/^	Display *dpy;$/;"	m	struct:__anon80d30d7f0308	typeref:typename:Display *
+dpy	dwm/dwm.c	/^static Display *dpy;$/;"	v	typeref:typename:Display *	file:
+dpy	dwmblocks/dwmblocks.c	/^static Display *dpy;$/;"	v	typeref:typename:Display *	file:
+drawable	dwm/drw.h	/^	Drawable drawable;$/;"	m	struct:__anon80d30d7f0308	typeref:typename:Drawable
+drawbar	dwm/dwm.c	/^drawbar(Monitor *m)$/;"	f	typeref:typename:void
+drawbars	dwm/dwm.c	/^drawbars(void)$/;"	f	typeref:typename:void
+drawstatusbar	dwm/dwm.c	/^drawstatusbar(Monitor *m, int bh, char* stext) {$/;"	f	typeref:typename:int
+drw	dwm/dwm.c	/^static Drw *drw;$/;"	v	typeref:typename:Drw *	file:
+drw_clr_create	dwm/drw.c	/^drw_clr_create(Drw *drw, Clr *dest, const char *clrname)$/;"	f	typeref:typename:void
+drw_create	dwm/drw.c	/^drw_create(Display *dpy, int screen, Window root, unsigned int w, unsigned int h)$/;"	f	typeref:typename:Drw *
+drw_cur_create	dwm/drw.c	/^drw_cur_create(Drw *drw, int shape)$/;"	f	typeref:typename:Cur *
+drw_cur_free	dwm/drw.c	/^drw_cur_free(Drw *drw, Cur *cursor)$/;"	f	typeref:typename:void
+drw_font_getexts	dwm/drw.c	/^drw_font_getexts(Fnt *font, const char *text, unsigned int len, unsigned int *w, unsigned int *h/;"	f	typeref:typename:void
+drw_fontset_create	dwm/drw.c	/^drw_fontset_create(Drw* drw, const char *fonts[], size_t fontcount)$/;"	f	typeref:typename:Fnt *
+drw_fontset_free	dwm/drw.c	/^drw_fontset_free(Fnt *font)$/;"	f	typeref:typename:void
+drw_fontset_getwidth	dwm/drw.c	/^drw_fontset_getwidth(Drw *drw, const char *text)$/;"	f	typeref:typename:unsigned int
+drw_free	dwm/drw.c	/^drw_free(Drw *drw)$/;"	f	typeref:typename:void
+drw_map	dwm/drw.c	/^drw_map(Drw *drw, Window win, int x, int y, unsigned int w, unsigned int h)$/;"	f	typeref:typename:void
+drw_rect	dwm/drw.c	/^drw_rect(Drw *drw, int x, int y, unsigned int w, unsigned int h, int filled, int invert)$/;"	f	typeref:typename:void
+drw_resize	dwm/drw.c	/^drw_resize(Drw *drw, unsigned int w, unsigned int h)$/;"	f	typeref:typename:void
+drw_scm_create	dwm/drw.c	/^drw_scm_create(Drw *drw, const char *clrnames[], size_t clrcount)$/;"	f	typeref:typename:Clr *
+drw_setfontset	dwm/drw.c	/^drw_setfontset(Drw *drw, Fnt *set)$/;"	f	typeref:typename:void
+drw_setscheme	dwm/drw.c	/^drw_setscheme(Drw *drw, Clr *scm)$/;"	f	typeref:typename:void
+drw_text	dwm/drw.c	/^drw_text(Drw *drw, int x, int y, unsigned int w, unsigned int h, unsigned int lpad, const char */;"	f	typeref:typename:int
+dwm	dwm/Makefile	/^dwm: ${OBJ}$/;"	t
+dwmbase/config.def.h	dwmpatches/dwm-custombar-6.1.diff	/^--- dwmbase\/config.def.h	2015-11-08 22:39:37.000000000 +0000$/;"	m
+dwmbase/dwm.c	dwmpatches/dwm-custombar-6.1.diff	/^--- dwmbase\/dwm.c	2015-11-08 22:39:37.000000000 +0000$/;"	m
+dwmblocks	dwmblocks/README.md	/^# dwmblocks$/;"	c
+ecalloc	dwm/util.c	/^ecalloc(size_t nmemb, size_t size)$/;"	f	typeref:typename:void *
+enternotify	dwm/dwm.c	/^enternotify(XEvent *e)$/;"	f	typeref:typename:void
+eof	bin/uniximage	/^cat << 'eof'$/;"	h
+error	larbs.sh	/^error() { clear; printf "ERROR:\\\\n%s\\\\n" "$1"; exit;}$/;"	f
+event_handler	polybar/script/py_spotify_listener.py	/^def event_handler(*args, **kwargs):$/;"	f
+expose	dwm/dwm.c	/^expose(XEvent *e)$/;"	f	typeref:typename:void
+f	dwm/dwm.c	/^	float f;$/;"	m	union:__anon80d5a0d5060a	typeref:typename:float	file:
+fail	polybar/script/py_spotify_listener.py	/^    def fail(self):$/;"	m	class:Test
+finalize	larbs.sh	/^finalize(){ \\$/;"	f
+focus	dwm/dwm.c	/^focus(Client *c)$/;"	f	typeref:typename:void
+focusin	dwm/dwm.c	/^focusin(XEvent *e)$/;"	f	typeref:typename:void
+focusmon	dwm/dwm.c	/^focusmon(const Arg *arg)$/;"	f	typeref:typename:void
+focusstack	dwm/dwm.c	/^focusstack(const Arg *arg)$/;"	f	typeref:typename:void
+fonts	dwm/config.def.h	/^static const char *fonts[]          = { "Fira Code:size=12:autohinting=true:antialiasing=true",$/;"	v	typeref:typename:const char * []
+fonts	dwm/config.h	/^static const char *fonts[]          = { "SauceCodePro Nerd Font:size=14:autohinting=true:antiali/;"	v	typeref:typename:const char * []
+fonts	dwm/drw.h	/^	Fnt *fonts;$/;"	m	struct:__anon80d30d7f0308	typeref:typename:Fnt *
+foo	polybar/script/py_spotify_listener.py	/^    def foo(self):$/;"	m	class:Test
+func	dwm/dwm.c	/^	void (*func)(const Arg *);$/;"	m	struct:__anon80d5a0d50808	typeref:typename:void (*)(const Arg *)	file:
+func	dwm/dwm.c	/^	void (*func)(const Arg *arg);$/;"	m	struct:__anon80d5a0d50708	typeref:typename:void (*)(const Arg * arg)	file:
+g:UltiSnipsExpandTrigger	neovim/init.vim	/^let g:UltiSnipsExpandTrigger="<tab>"$/;"	v
+g:UltiSnipsJumpBackwardTrigger	neovim/init.vim	/^let g:UltiSnipsJumpBackwardTrigger="<c-z>"$/;"	v
+g:UltiSnipsJumpForwardTrigger	neovim/init.vim	/^let g:UltiSnipsJumpForwardTrigger="<c-b>"$/;"	v
+g:lightline	neovim/init.vim	/^let g:lightline = {$/;"	v
+g:syntastic_always_populate_loc_list	neovim/init.vim	/^let g:syntastic_always_populate_loc_list = 1$/;"	v
+g:syntastic_auto_loc_list	neovim/init.vim	/^let g:syntastic_auto_loc_list = 1$/;"	v
+g:syntastic_c_checkers	neovim/init.vim	/^let g:syntastic_c_checkers = ['syntastic-checkers-c']$/;"	v
+g:syntastic_check_on_open	neovim/init.vim	/^let g:syntastic_check_on_open = 1$/;"	v
+g:syntastic_check_on_wq	neovim/init.vim	/^let g:syntastic_check_on_wq = 0$/;"	v
+g:syntastic_cpp_checkers	neovim/init.vim	/^let g:syntastic_cpp_checkers = ['syntastic-checkers-cpp']$/;"	v
+g:syntastic_h_checkers	neovim/init.vim	/^let g:syntastic_h_checkers = ['syntastic-checkers-c']$/;"	v
+g:vimtex_compiler_latexmk	neovim/init.vim	/^let g:vimtex_compiler_latexmk = {'backend' : 'nvim'}$/;"	v
+gappx	dwm/config.def.h	/^static const unsigned int gappx     = 10;        \/* gaps between windows *\/$/;"	v	typeref:typename:const unsigned int
+gappx	dwm/config.h	/^static const unsigned int gappx     = 10;        \/* gaps between windows *\/$/;"	v	typeref:typename:const unsigned int
+gappx	dwm/dwm.c	/^	int gappx;            \/* gaps between windows *\/$/;"	m	struct:Monitor	typeref:typename:int	file:
+gc	dwm/drw.h	/^	GC gc;$/;"	m	struct:__anon80d30d7f0308	typeref:typename:GC
+getBattery	Scripts/dwmstatus.sh	/^getBattery() {$/;"	f
+getBusNameFromOwner	Scripts/polybar/player-mpris-tail.py	/^    def getBusNameFromOwner(self, owner):$/;"	m	class:PlayerManager
+getBusNameFromOwner	polybar/script/player-mpris-tail.py	/^    def getBusNameFromOwner(self, owner):$/;"	m	class:PlayerManager
+getCPU	Scripts/dwmstatus.sh	/^getCPU() {$/;"	f
+getCurrentPlayer	Scripts/polybar/player-mpris-tail.py	/^    def getCurrentPlayer(self):$/;"	m	class:PlayerManager
+getCurrentPlayer	polybar/script/player-mpris-tail.py	/^    def getCurrentPlayer(self):$/;"	m	class:PlayerManager
+getMEM	Scripts/dwmstatus.sh	/^getMEM() {$/;"	f
+getMusic	Scripts/dwmstatus.sh	/^getMusic() {$/;"	f
+getSortedPlayerOwnerList	Scripts/polybar/player-mpris-tail.py	/^    def getSortedPlayerOwnerList(self):$/;"	m	class:PlayerManager
+getSortedPlayerOwnerList	polybar/script/player-mpris-tail.py	/^    def getSortedPlayerOwnerList(self):$/;"	m	class:PlayerManager
+getSound	Scripts/dwmstatus.sh	/^getSound() {$/;"	f
+getTime	Scripts/dwmstatus.sh	/^getTime() {$/;"	f
+getUpdates	Scripts/dwmstatus.sh	/^getUpdates() {$/;"	f
+get_ascii	bin/pfetch	/^get_ascii() {$/;"	f
+get_de	bin/pfetch	/^get_de() {$/;"	f
+get_editor	bin/pfetch	/^get_editor() {$/;"	f
+get_host	bin/pfetch	/^get_host() {$/;"	f
+get_kernel	bin/pfetch	/^get_kernel() {$/;"	f
+get_memory	bin/pfetch	/^get_memory() {$/;"	f
+get_os	bin/pfetch	/^get_os() {$/;"	f
+get_palette	bin/pfetch	/^get_palette() {$/;"	f
+get_pkgs	bin/pfetch	/^get_pkgs() {$/;"	f
+get_shell	bin/pfetch	/^get_shell() {$/;"	f
+get_term	bin/pfetch	/^get_term() {$/;"	f
+get_title	bin/pfetch	/^get_title() {$/;"	f
+get_uptime	bin/pfetch	/^get_uptime() {$/;"	f
+get_wm	bin/pfetch	/^get_wm() {$/;"	f
+getatomprop	dwm/dwm.c	/^getatomprop(Client *c, Atom prop)$/;"	f	typeref:typename:Atom
+getcmd	dwmblocks/dwmblocks.c	/^void getcmd(const Block *block, char *output)$/;"	f	typeref:typename:void
+getcmds	dwmblocks/dwmblocks.c	/^void getcmds(int time)$/;"	f	typeref:typename:void
+getrootptr	dwm/dwm.c	/^getrootptr(int *x, int *y)$/;"	f	typeref:typename:int
+getsigcmds	dwmblocks/dwmblocks.c	/^void getsigcmds(int signal)$/;"	f	typeref:typename:void
+getstate	dwm/dwm.c	/^getstate(Window w)$/;"	f	typeref:typename:long
+getstatus	dwmblocks/dwmblocks.c	/^int getstatus(char *str, char *last)$/;"	f	typeref:typename:int
+gettextprop	dwm/dwm.c	/^gettextprop(Window w, Atom atom, char *text, unsigned int size)$/;"	f	typeref:typename:int
+getuserandpass	larbs.sh	/^getuserandpass() { \\$/;"	f
+gitmakeinstall	larbs.sh	/^gitmakeinstall() {$/;"	f
+grabbuttons	dwm/dwm.c	/^grabbuttons(Client *c, int focused)$/;"	f	typeref:typename:void
+grabkeys	dwm/dwm.c	/^grabkeys(void)$/;"	f	typeref:typename:void
+h	dwm/drw.h	/^	unsigned int h;$/;"	m	struct:Fnt	typeref:typename:unsigned int
+h	dwm/drw.h	/^	unsigned int w, h;$/;"	m	struct:__anon80d30d7f0308	typeref:typename:unsigned int
+h	dwm/dwm.c	/^	int x, y, w, h;$/;"	m	struct:Client	typeref:typename:int	file:
+handler	dwm/dwm.c	/^static void (*handler[LASTEvent]) (XEvent *) = {$/;"	v	typeref:typename:void (* [LASTEvent])(XEvent *)	file:
+has	bin/pfetch	/^    has() { command -v "$1" >\/dev\/null; }$/;"	f
+i	dwm/dwm.c	/^	int i;$/;"	m	union:__anon80d5a0d5060a	typeref:typename:int	file:
+icon	dwmblocks/dwmblocks.c	/^	char* icon;$/;"	m	struct:__anonb31399110108	typeref:typename:char *	file:
+inch	dwm/dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	typeref:typename:int	file:
+incnmaster	dwm/dwm.c	/^incnmaster(const Arg *arg)$/;"	f	typeref:typename:void
+incw	dwm/dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	typeref:typename:int	file:
+install	dwm/Makefile	/^install: all$/;"	t
+install	dwmblocks/Makefile	/^install: output$/;"	t
+installationloop	larbs.sh	/^installationloop() { \\$/;"	f
+installpkg	larbs.sh	/^	installpkg(){ apt-get install -y "$1" >\/dev\/null 2>&1 ;}$/;"	f
+installpkg	larbs.sh	/^	installpkg(){ pacman --noconfirm --needed -S "$1" >\/dev\/null 2>&1 ;}$/;"	f
+installpkg	larbs.sh	/^	installpkg(){ xbps-install -y "$1" >\/dev\/null 2>&1 ;}$/;"	f
+instance	dwm/dwm.c	/^	const char *instance;$/;"	m	struct:__anon80d5a0d50a08	typeref:typename:const char *	file:
+interval	dwmblocks/dwmblocks.c	/^	unsigned int interval;$/;"	m	struct:__anonb31399110108	typeref:typename:unsigned int	file:
+isfixed	dwm/dwm.c	/^	int isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	typeref:typename:int	file:
+isfloating	dwm/dwm.c	/^	int isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	typeref:typename:int	file:
+isfloating	dwm/dwm.c	/^	int isfloating;$/;"	m	struct:__anon80d5a0d50a08	typeref:typename:int	file:
+isfullscreen	dwm/dwm.c	/^	int isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	typeref:typename:int	file:
+isuniquegeom	dwm/dwm.c	/^isuniquegeom(XineramaScreenInfo *unique, size_t n, XineramaScreenInfo *info)$/;"	f	typeref:typename:int	file:
+isurgent	dwm/dwm.c	/^	int isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	typeref:typename:int	file:
+keypress	dwm/dwm.c	/^keypress(XEvent *e)$/;"	f	typeref:typename:void
+keys	dwm/config.def.h	/^static Key keys[] = {$/;"	v	typeref:typename:Key[]
+keys	dwm/config.h	/^static Key keys[] = {$/;"	v	typeref:typename:Key[]
+keysym	dwm/dwm.c	/^	KeySym keysym;$/;"	m	struct:__anon80d5a0d50808	typeref:typename:KeySym	file:
+killclient	dwm/dwm.c	/^killclient(const Arg *arg)$/;"	f	typeref:typename:void
+lastbutton	dwm/dwm.c	/^static char lastbutton[] = "-";$/;"	v	typeref:typename:char[]	file:
+launch	Scripts/polybar/polybar_wrapper	/^launch() {$/;"	f
+layouts	dwm/config.def.h	/^static const Layout layouts[] = {$/;"	v	typeref:typename:const Layout[]
+layouts	dwm/config.h	/^static const Layout layouts[] = {$/;"	v	typeref:typename:const Layout[]
+limitexceeded	dwm/dwm.c	/^struct NumTags { char limitexceeded[LENGTH(tags) > 31 ? -1 : 1]; };$/;"	m	struct:NumTags	typeref:typename:char[]	file:
+log	bin/pfetch	/^log() {$/;"	f
+loop	polybar/script/py_spotify_listener.py	/^    loop = None$/;"	v	class:Test
+loop	polybar/script/py_spotify_listener.py	/^loop = GObject.MainLoop()$/;"	v
+lrpad	dwm/dwm.c	/^static int lrpad;            \/* sum of left and right padding for text *\/$/;"	v	typeref:typename:int	file:
+lt	dwm/dwm.c	/^	const Layout *lt[2];$/;"	m	struct:Monitor	typeref:typename:const Layout * [2]	file:
+ltsymbol	dwm/dwm.c	/^	char ltsymbol[16];$/;"	m	struct:Monitor	typeref:typename:char[16]	file:
+main	bin/pfetch	/^main() {$/;"	f
+main	dwm/dwm.c	/^main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	dwm/transient.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	dwmblocks/dwmblocks.c	/^int main(int argc, char** argv)$/;"	f	typeref:typename:int
+maininstall	larbs.sh	/^maininstall() { # Installs all needed programs from main repo.$/;"	f
+manage	dwm/dwm.c	/^manage(Window w, XWindowAttributes *wa)$/;"	f	typeref:typename:void
+manualinstall	larbs.sh	/^manualinstall() { # Installs $1 manually if not installed. Used only for AUR helper here.$/;"	f
+mappingnotify	dwm/dwm.c	/^mappingnotify(XEvent *e)$/;"	f	typeref:typename:void
+maprequest	dwm/dwm.c	/^maprequest(XEvent *e)$/;"	f	typeref:typename:void
+mask	dwm/dwm.c	/^	unsigned int mask;$/;"	m	struct:__anon80d5a0d50708	typeref:typename:unsigned int	file:
+maxa	dwm/dwm.c	/^	float mina, maxa;$/;"	m	struct:Client	typeref:typename:float	file:
+maxh	dwm/dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	typeref:typename:int	file:
+maxw	dwm/dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	typeref:typename:int	file:
+metadata	polybar/script/spotify_status.py	/^    metadata = spotify_properties.Get('org.mpris.MediaPlayer2.Player', 'Metadata')$/;"	v
+mfact	dwm/config.def.h	/^static const float mfact     = 0.55; \/* factor of master area size [0.05..0.95] *\/$/;"	v	typeref:typename:const float
+mfact	dwm/config.h	/^static const float mfact     = 0.55; \/* factor of master area size [0.05..0.95] *\/$/;"	v	typeref:typename:const float
+mfact	dwm/dwm.c	/^	float mfact;$/;"	m	struct:Monitor	typeref:typename:float	file:
+mh	dwm/dwm.c	/^	int mx, my, mw, mh;   \/* screen size *\/$/;"	m	struct:Monitor	typeref:typename:int	file:
+mina	dwm/dwm.c	/^	float mina, maxa;$/;"	m	struct:Client	typeref:typename:float	file:
+minh	dwm/dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	typeref:typename:int	file:
+minw	dwm/dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	typeref:typename:int	file:
+mod	dwm/dwm.c	/^	unsigned int mod;$/;"	m	struct:__anon80d5a0d50808	typeref:typename:unsigned int	file:
+modifying blocks	dwmblocks/README.md	/^# modifying blocks$/;"	c
+mon	dwm/dwm.c	/^	Monitor *mon;$/;"	m	struct:Client	typeref:typename:Monitor *	file:
+monitor	dwm/dwm.c	/^	int monitor;$/;"	m	struct:__anon80d5a0d50a08	typeref:typename:int	file:
+monocle	dwm/dwm.c	/^monocle(Monitor *m)$/;"	f	typeref:typename:void
+mons	dwm/dwm.c	/^static Monitor *mons, *selmon;$/;"	v	typeref:typename:Monitor *	file:
+motionnotify	dwm/dwm.c	/^motionnotify(XEvent *e)$/;"	f	typeref:typename:void
+movemouse	dwm/dwm.c	/^movemouse(const Arg *arg)$/;"	f	typeref:typename:void
+mw	dwm/dwm.c	/^	int mx, my, mw, mh;   \/* screen size *\/$/;"	m	struct:Monitor	typeref:typename:int	file:
+mx	dwm/dwm.c	/^	int mx, my, mw, mh;   \/* screen size *\/$/;"	m	struct:Monitor	typeref:typename:int	file:
+my	dwm/dwm.c	/^	int mx, my, mw, mh;   \/* screen size *\/$/;"	m	struct:Monitor	typeref:typename:int	file:
+name	dwm/dwm.c	/^	char name[256];$/;"	m	struct:Client	typeref:typename:char[256]	file:
+netatom	dwm/dwm.c	/^static Atom wmatom[WMLast], netatom[NetLast];$/;"	v	typeref:typename:Atom[][]	file:
+neverfocus	dwm/dwm.c	/^	int isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	typeref:typename:int	file:
+newperms	larbs.sh	/^newperms() { # Set special sudoers settings for install (or after).$/;"	f
+next	Scripts/polybar/player-mpris-tail.py	/^    def next(self):$/;"	m	class:Player
+next	dwm/drw.h	/^	struct Fnt *next;$/;"	m	struct:Fnt	typeref:struct:Fnt *
+next	dwm/dwm.c	/^	Client *next;$/;"	m	struct:Client	typeref:typename:Client *	file:
+next	dwm/dwm.c	/^	Monitor *next;$/;"	m	struct:Monitor	typeref:typename:Monitor *	file:
+next	polybar/script/player-mpris-tail.py	/^    def next(self):$/;"	m	class:Player
+nexttiled	dwm/dwm.c	/^nexttiled(Client *c)$/;"	f	typeref:typename:Client *
+nmaster	dwm/config.def.h	/^static const int nmaster     = 1;    \/* number of clients in master area *\/$/;"	v	typeref:typename:const int
+nmaster	dwm/config.h	/^static const int nmaster     = 1;    \/* number of clients in master area *\/$/;"	v	typeref:typename:const int
+nmaster	dwm/dwm.c	/^	int nmaster;$/;"	m	struct:Monitor	typeref:typename:int	file:
+num	dwm/dwm.c	/^	int num;$/;"	m	struct:Monitor	typeref:typename:int	file:
+numlockmask	dwm/dwm.c	/^static unsigned int numlockmask = 0;$/;"	v	typeref:typename:unsigned int	file:
+obj	polybar/script/py_spotify_listener.py	/^obj = Test(bus_name, '\/tld\/domain\/sub\/Test', loop)$/;"	v
+oldbw	dwm/dwm.c	/^	int bw, oldbw;$/;"	m	struct:Client	typeref:typename:int	file:
+oldh	dwm/dwm.c	/^	int oldx, oldy, oldw, oldh;$/;"	m	struct:Client	typeref:typename:int	file:
+oldstate	dwm/dwm.c	/^	int isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	typeref:typename:int	file:
+oldw	dwm/dwm.c	/^	int oldx, oldy, oldw, oldh;$/;"	m	struct:Client	typeref:typename:int	file:
+oldx	dwm/dwm.c	/^	int oldx, oldy, oldw, oldh;$/;"	m	struct:Client	typeref:typename:int	file:
+oldy	dwm/dwm.c	/^	int oldx, oldy, oldw, oldh;$/;"	m	struct:Client	typeref:typename:int	file:
+onMPRISSignal	Scripts/polybar/player-mpris-tail.py	/^    def onMPRISSignal(self, interface, properties, signature, member = None, sender = None):$/;"	m	class:PlayerManager
+onMPRISSignal	polybar/script/player-mpris-tail.py	/^    def onMPRISSignal(self, interface, properties, signature, member = None, sender = None):$/;"	m	class:PlayerManager
+onMetadataChanged	Scripts/polybar/player-mpris-tail.py	/^    def onMetadataChanged(self, track_id, metadata):$/;"	m	class:Player
+onMetadataChanged	polybar/script/player-mpris-tail.py	/^    def onMetadataChanged(self, track_id, metadata):$/;"	m	class:Player
+onOwnerChangedName	Scripts/polybar/player-mpris-tail.py	/^    def onOwnerChangedName(self, bus_name, old_owner, new_owner):$/;"	m	class:PlayerManager
+onOwnerChangedName	polybar/script/player-mpris-tail.py	/^    def onOwnerChangedName(self, bus_name, old_owner, new_owner):$/;"	m	class:PlayerManager
+onPropertiesChanged	Scripts/polybar/player-mpris-tail.py	/^    def onPropertiesChanged(self, interface, properties, signature):$/;"	m	class:Player
+onPropertiesChanged	polybar/script/player-mpris-tail.py	/^    def onPropertiesChanged(self, interface, properties, signature):$/;"	m	class:Player
+onSeeked	Scripts/polybar/player-mpris-tail.py	/^    def onSeeked(self, position):$/;"	m	class:Player
+onSeeked	polybar/script/player-mpris-tail.py	/^    def onSeeked(self, position):$/;"	m	class:Player
+options	dwm/Makefile	/^options:$/;"	t
+options_close	Scripts/polybar/polybar_wrapper	/^options_close() {$/;"	f
+options_icon	Scripts/polybar/polybar_wrapper	/^options_icon() {$/;"	f
+options_open	Scripts/polybar/polybar_wrapper	/^options_open() {$/;"	f
+options_toggle	Scripts/polybar/polybar_wrapper	/^options_toggle() {$/;"	f
+output	dwmblocks/Makefile	/^output: dwmblocks.c blocks.h$/;"	t
+output	polybar/script/spotify_status.py	/^    output = args.custom_format$/;"	v
+output	polybar/script/spotify_status.py	/^output = '{artist}: {song}'$/;"	v
+parser	Scripts/polybar/player-mpris-tail.py	/^parser = argparse.ArgumentParser()$/;"	v
+parser	polybar/script/player-mpris-tail.py	/^parser = argparse.ArgumentParser()$/;"	v
+parser	polybar/script/spotify_status.py	/^parser = argparse.ArgumentParser()$/;"	v
+pattern	dwm/drw.h	/^	FcPattern *pattern;$/;"	m	struct:Fnt	typeref:typename:FcPattern *
+pause	Scripts/polybar/player-mpris-tail.py	/^    def pause(self):$/;"	m	class:Player
+pause	polybar/script/player-mpris-tail.py	/^    def pause(self):$/;"	m	class:Player
+pipinstall	larbs.sh	/^pipinstall() { \\$/;"	f
+play	Scripts/polybar/player-mpris-tail.py	/^    def play(self):$/;"	m	class:Player
+play	polybar/script/player-mpris-tail.py	/^    def play(self):$/;"	m	class:Player
+playpause	Scripts/polybar/player-mpris-tail.py	/^    def playpause(self):$/;"	m	class:Player
+playpause	polybar/script/player-mpris-tail.py	/^    def playpause(self):$/;"	m	class:Player
+pop	dwm/dwm.c	/^pop(Client *c)$/;"	f	typeref:typename:void
+preinstallmsg	larbs.sh	/^preinstallmsg() { \\$/;"	f
+previous	Scripts/polybar/player-mpris-tail.py	/^    def previous(self):$/;"	m	class:Player
+previous	polybar/script/player-mpris-tail.py	/^    def previous(self):$/;"	m	class:Player
+print	Scripts/polybar/player-mpris-tail.py	/^    def print(self, status, player):$/;"	m	class:PlayerManager
+print	polybar/script/player-mpris-tail.py	/^    def print(self, status, player):$/;"	m	class:PlayerManager
+printQueue	Scripts/polybar/player-mpris-tail.py	/^    def printQueue(self):$/;"	m	class:PlayerManager
+printQueue	polybar/script/player-mpris-tail.py	/^    def printQueue(self):$/;"	m	class:PlayerManager
+printStatus	Scripts/polybar/player-mpris-tail.py	/^    def printStatus(self):$/;"	m	class:Player
+printStatus	polybar/script/player-mpris-tail.py	/^    def printStatus(self):$/;"	m	class:Player
+propertynotify	dwm/dwm.c	/^propertynotify(XEvent *e)$/;"	f	typeref:typename:void
+pstdout	dwmblocks/dwmblocks.c	/^void pstdout()$/;"	f	typeref:typename:void
+putgitrepo	larbs.sh	/^putgitrepo() { # Downloads a gitrepo $1 and places the files in $2 only overwriting conflicts$/;"	f
+quit	dwm/dwm.c	/^quit(const Arg *arg)$/;"	f	typeref:typename:void
+quit_handler	polybar/script/py_spotify_listener.py	/^def quit_handler():$/;"	f
+raisePlayer	Scripts/polybar/player-mpris-tail.py	/^    def raisePlayer(self):$/;"	m	class:Player
+raisePlayer	polybar/script/player-mpris-tail.py	/^    def raisePlayer(self):$/;"	m	class:Player
+rawstext	dwm/dwm.c	/^static char rawstext[256];$/;"	v	typeref:typename:char[256]	file:
+read_ascii	bin/pfetch	/^    read_ascii() {$/;"	f
+recttomon	dwm/dwm.c	/^recttomon(int x, int y, int w, int h)$/;"	f	typeref:typename:Monitor *
+refreshMetadata	Scripts/polybar/player-mpris-tail.py	/^    def refreshMetadata(self):$/;"	m	class:Player
+refreshMetadata	polybar/script/player-mpris-tail.py	/^    def refreshMetadata(self):$/;"	m	class:Player
+refreshPlayerList	Scripts/polybar/player-mpris-tail.py	/^    def refreshPlayerList(self):$/;"	m	class:PlayerManager
+refreshPlayerList	polybar/script/player-mpris-tail.py	/^    def refreshPlayerList(self):$/;"	m	class:PlayerManager
+refreshPosition	Scripts/polybar/player-mpris-tail.py	/^    def refreshPosition(self):$/;"	m	class:Player
+refreshPosition	polybar/script/player-mpris-tail.py	/^    def refreshPosition(self):$/;"	m	class:Player
+refreshStatus	Scripts/polybar/player-mpris-tail.py	/^    def refreshStatus(self):$/;"	m	class:Player
+refreshStatus	polybar/script/player-mpris-tail.py	/^    def refreshStatus(self):$/;"	m	class:Player
+refreshkeys	larbs.sh	/^refreshkeys() { \\$/;"	f
+removePlayer	Scripts/polybar/player-mpris-tail.py	/^    def removePlayer(self, owner):$/;"	m	class:PlayerManager
+removePlayer	polybar/script/player-mpris-tail.py	/^    def removePlayer(self, owner):$/;"	m	class:PlayerManager
+resize	bin/pipesanimation	/^resize() {$/;"	f
+resize	dwm/dwm.c	/^resize(Client *c, int x, int y, int w, int h, int interact)$/;"	f	typeref:typename:void
+resizeclient	dwm/dwm.c	/^resizeclient(Client *c, int x, int y, int w, int h)$/;"	f	typeref:typename:void
+resizehints	dwm/config.def.h	/^static const int resizehints = 1;    \/* 1 means respect size hints in tiled resizals *\/$/;"	v	typeref:typename:const int
+resizehints	dwm/config.h	/^static const int resizehints = 1;    \/* 1 means respect size hints in tiled resizals *\/$/;"	v	typeref:typename:const int
+resizemouse	dwm/dwm.c	/^resizemouse(const Arg *arg)$/;"	f	typeref:typename:void
+restack	dwm/dwm.c	/^restack(Monitor *m)$/;"	f	typeref:typename:void
+rofi_open	Scripts/polybar/polybar_wrapper	/^rofi_open() {$/;"	f
+root	dwm/drw.h	/^	Window root;$/;"	m	struct:__anon80d30d7f0308	typeref:typename:Window
+root	dwm/dwm.c	/^static Window root, wmcheckwin;$/;"	v	typeref:typename:Window	file:
+root	dwmblocks/dwmblocks.c	/^static Window root;$/;"	v	typeref:typename:Window	file:
+rules	dwm/config.def.h	/^static const Rule rules[] = {$/;"	v	typeref:typename:const Rule[]
+rules	dwm/config.h	/^static const Rule rules[] = {$/;"	v	typeref:typename:const Rule[]
+run	dwm/dwm.c	/^run(void)$/;"	f	typeref:typename:void
+running	dwm/dwm.c	/^static int running = 1;$/;"	v	typeref:typename:int	file:
+scan	dwm/dwm.c	/^scan(void)$/;"	f	typeref:typename:void
+scheme	dwm/drw.h	/^	Clr *scheme;$/;"	m	struct:__anon80d30d7f0308	typeref:typename:Clr *
+scheme	dwm/dwm.c	/^static Clr **scheme;$/;"	v	typeref:typename:Clr **	file:
+screen	dwm/drw.h	/^	int screen;$/;"	m	struct:__anon80d30d7f0308	typeref:typename:int
+screen	dwm/dwm.c	/^static int screen;$/;"	v	typeref:typename:int	file:
+screen	dwmblocks/dwmblocks.c	/^static int screen;$/;"	v	typeref:typename:int	file:
+search_open	Scripts/polybar/polybar_wrapper	/^search_open() {$/;"	f
+sel	dwm/dwm.c	/^	Client *sel;$/;"	m	struct:Monitor	typeref:typename:Client *	file:
+sellt	dwm/dwm.c	/^	unsigned int sellt;$/;"	m	struct:Monitor	typeref:typename:unsigned int	file:
+selmon	dwm/dwm.c	/^static Monitor *mons, *selmon;$/;"	v	typeref:typename:Monitor **	file:
+seltags	dwm/dwm.c	/^	unsigned int seltags;$/;"	m	struct:Monitor	typeref:typename:unsigned int	file:
+sendevent	dwm/dwm.c	/^sendevent(Client *c, Atom proto)$/;"	f	typeref:typename:int
+sendmon	dwm/dwm.c	/^sendmon(Client *c, Monitor *m)$/;"	f	typeref:typename:void
+setclientstate	dwm/dwm.c	/^setclientstate(Client *c, long state)$/;"	f	typeref:typename:void
+setfocus	dwm/dwm.c	/^setfocus(Client *c)$/;"	f	typeref:typename:void
+setfullscreen	dwm/dwm.c	/^setfullscreen(Client *c, int fullscreen)$/;"	f	typeref:typename:void
+setgaps	dwm/dwm.c	/^setgaps(const Arg *arg)$/;"	f	typeref:typename:void
+setlayout	dwm/dwm.c	/^setlayout(const Arg *arg)$/;"	f	typeref:typename:void
+setmfact	dwm/dwm.c	/^setmfact(const Arg *arg)$/;"	f	typeref:typename:void
+setroot	dwmblocks/dwmblocks.c	/^void setroot()$/;"	f	typeref:typename:void
+setup	dwm/dwm.c	/^setup(void)$/;"	f	typeref:typename:void
+setupsignals	dwmblocks/dwmblocks.c	/^void setupsignals()$/;"	f	typeref:typename:void
+seturgent	dwm/dwm.c	/^seturgent(Client *c, int urg)$/;"	f	typeref:typename:void
+sh	dwm/dwm.c	/^static int sw, sh;           \/* X display screen geometry width, height *\/$/;"	v	typeref:typename:int	file:
+showbar	dwm/config.def.h	/^static const int showbar            = 1;        \/* 0 means no bar *\/$/;"	v	typeref:typename:const int
+showbar	dwm/config.h	/^static const int showbar            = 1;        \/* 0 means no bar *\/$/;"	v	typeref:typename:const int
+showbar	dwm/dwm.c	/^	int showbar;$/;"	m	struct:Monitor	typeref:typename:int	file:
+showhide	dwm/dwm.c	/^showhide(Client *c)$/;"	f	typeref:typename:void
+sigchld	dwm/dwm.c	/^sigchld(int unused)$/;"	f	typeref:typename:void
+sighandler	dwmblocks/dwmblocks.c	/^void sighandler(int signum)$/;"	f	typeref:typename:void
+signal	dwmblocks/dwmblocks.c	/^	unsigned int signal;$/;"	m	struct:__anonb31399110108	typeref:typename:unsigned int	file:
+snap	dwm/config.def.h	/^static const unsigned int snap      = 32;       \/* snap pixel *\/$/;"	v	typeref:typename:const unsigned int
+snap	dwm/config.h	/^static const unsigned int snap      = 32;       \/* snap pixel *\/$/;"	v	typeref:typename:const unsigned int
+snext	dwm/dwm.c	/^	Client *snext;$/;"	m	struct:Client	typeref:typename:Client *	file:
+song	polybar/script/spotify_status.py	/^        song = song[0:trunclen]$/;"	v
+song	polybar/script/spotify_status.py	/^    song = metadata['xesam:title']$/;"	v
+spawn	dwm/dwm.c	/^spawn(const Arg *arg)$/;"	f	typeref:typename:void
+spotify_bus	polybar/script/spotify_status.py	/^    spotify_bus = session_bus.get_object($/;"	v
+spotify_properties	polybar/script/spotify_status.py	/^    spotify_properties = dbus.Interface($/;"	v
+stack	dwm/dwm.c	/^	Client *stack;$/;"	m	struct:Monitor	typeref:typename:Client *	file:
+statusContinue	dwmblocks/dwmblocks.c	/^static int statusContinue = 1;$/;"	v	typeref:typename:int	file:
+statusbar	dwmblocks/dwmblocks.c	/^static char statusbar[LENGTH(blocks)][CMDLENGTH] = {0};$/;"	v	typeref:typename:char[][]	file:
+statuscmd	dwm/config.def.h	/^static char *statuscmd[] = { "\/bin\/sh", "-c", NULL, NULL };$/;"	v	typeref:typename:char * []
+statuscmd	dwm/config.h	/^static char *statuscmd[] = { "\/bin\/sh", "-c", NULL, NULL };$/;"	v	typeref:typename:char * []
+statuscmdn	dwm/dwm.c	/^static int statuscmdn;$/;"	v	typeref:typename:int	file:
+statuscmds	dwm/config.def.h	/^static char *statuscmds[] = { "notify-send Mouse$BUTTON" };$/;"	v	typeref:typename:char * []
+statuscmds	dwm/config.h	/^static char *statuscmds[] = { "notify-send Mouse$BUTTON" };$/;"	v	typeref:typename:char * []
+statusloop	dwmblocks/dwmblocks.c	/^void statusloop()$/;"	f	typeref:typename:void
+statusstr	dwmblocks/dwmblocks.c	/^static char statusstr[2][256];$/;"	v	typeref:typename:char[2][256]	file:
+stext	dwm/dwm.c	/^static char stext[256];$/;"	v	typeref:typename:char[256]	file:
+stop	Scripts/polybar/player-mpris-tail.py	/^    def stop(self):$/;"	m	class:Player
+stop	polybar/script/player-mpris-tail.py	/^    def stop(self):$/;"	m	class:Player
+stop	polybar/script/py_spotify_listener.py	/^    def stop(self):$/;"	m	class:Test
+sw	dwm/dwm.c	/^static int sw, sh;           \/* X display screen geometry width, height *\/$/;"	v	typeref:typename:int	file:
+symbol	dwm/dwm.c	/^	const char *symbol;$/;"	m	struct:__anon80d5a0d50908	typeref:typename:const char *	file:
+systembeepoff	larbs.sh	/^systembeepoff() { dialog --infobox "Getting rid of that retarded error beep sound..." 10 50$/;"	f
+tag	dwm/dwm.c	/^tag(const Arg *arg)$/;"	f	typeref:typename:void
+tagmon	dwm/dwm.c	/^tagmon(const Arg *arg)$/;"	f	typeref:typename:void
+tags	dwm/config.def.h	/^static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };$/;"	v	typeref:typename:const char * []
+tags	dwm/config.h	/^static const char *tags[] = { "Ɐ", "ꞵ", "ℭ", "ⅅ", "ℰ", "ℱ", "", "ℋ", "I" };$/;"	v	typeref:typename:const char * []
+tags	dwm/dwm.c	/^	unsigned int tags;$/;"	m	struct:Client	typeref:typename:unsigned int	file:
+tags	dwm/dwm.c	/^	unsigned int tags;$/;"	m	struct:__anon80d5a0d50a08	typeref:typename:unsigned int	file:
+tagset	dwm/dwm.c	/^	unsigned int tagset[2];$/;"	m	struct:Monitor	typeref:typename:unsigned int[2]	file:
+termcmd	dwm/config.def.h	/^static const char *termcmd[]  = { "kitty", NULL };$/;"	v	typeref:typename:const char * []
+termcmd	dwm/config.h	/^static const char *termcmd[]  = { "kitty", NULL };$/;"	v	typeref:typename:const char * []
+termhandler	dwmblocks/dwmblocks.c	/^void termhandler(int signum)$/;"	f	typeref:typename:void
+tile	dwm/dwm.c	/^tile(Monitor *m)$/;"	f	typeref:typename:void
+title	dwm/dwm.c	/^	const char *title;$/;"	m	struct:__anon80d5a0d50a08	typeref:typename:const char *	file:
+togglebar	dwm/dwm.c	/^togglebar(const Arg *arg)$/;"	f	typeref:typename:void
+togglefloating	dwm/dwm.c	/^togglefloating(const Arg *arg)$/;"	f	typeref:typename:void
+toggletag	dwm/dwm.c	/^toggletag(const Arg *arg)$/;"	f	typeref:typename:void
+toggleview	dwm/dwm.c	/^toggleview(const Arg *arg)$/;"	f	typeref:typename:void
+topbar	dwm/config.def.h	/^static const int topbar             = 1;        \/* 0 means bottom bar *\/$/;"	v	typeref:typename:const int
+topbar	dwm/config.h	/^static const int topbar             = 1;        \/* 0 means bottom bar *\/$/;"	v	typeref:typename:const int
+topbar	dwm/dwm.c	/^	int topbar;$/;"	m	struct:Monitor	typeref:typename:int	file:
+trunclen	polybar/script/spotify_status.py	/^    trunclen = args.trunclen$/;"	v
+trunclen	polybar/script/spotify_status.py	/^trunclen = 25$/;"	v
+ui	dwm/dwm.c	/^	unsigned int ui;$/;"	m	union:__anon80d5a0d5060a	typeref:typename:unsigned int	file:
+unfocus	dwm/dwm.c	/^unfocus(Client *c, int setfocus)$/;"	f	typeref:typename:void
+uninstall	dwm/Makefile	/^uninstall:$/;"	t
+uninstall	dwmblocks/Makefile	/^uninstall:$/;"	t
+unmanage	dwm/dwm.c	/^unmanage(Client *c, int destroyed)$/;"	f	typeref:typename:void
+unmapnotify	dwm/dwm.c	/^unmapnotify(XEvent *e)$/;"	f	typeref:typename:void
+unwrap	polybar/script/py_spotify_listener.py	/^def unwrap(val):$/;"	f
+updateIcon	Scripts/polybar/player-mpris-tail.py	/^    def updateIcon(self):$/;"	m	class:Player
+updateIcon	polybar/script/player-mpris-tail.py	/^    def updateIcon(self):$/;"	m	class:Player
+updatebarpos	dwm/dwm.c	/^updatebarpos(Monitor *m)$/;"	f	typeref:typename:void
+updatebars	dwm/dwm.c	/^updatebars(void)$/;"	f	typeref:typename:void
+updateclientlist	dwm/dwm.c	/^updateclientlist()$/;"	f	typeref:typename:void
+updategeom	dwm/dwm.c	/^updategeom(void)$/;"	f	typeref:typename:int
+updatenumlockmask	dwm/dwm.c	/^updatenumlockmask(void)$/;"	f	typeref:typename:void
+updatesizehints	dwm/dwm.c	/^updatesizehints(Client *c)$/;"	f	typeref:typename:void
+updatestatus	dwm/dwm.c	/^updatestatus(void)$/;"	f	typeref:typename:void
+updatetitle	dwm/dwm.c	/^updatetitle(Client *c)$/;"	f	typeref:typename:void
+updatewindowtype	dwm/dwm.c	/^updatewindowtype(Client *c)$/;"	f	typeref:typename:void
+updatewmhints	dwm/dwm.c	/^updatewmhints(Client *c)$/;"	f	typeref:typename:void
+usercheck	larbs.sh	/^usercheck() { \\$/;"	f
+utf8decode	dwm/drw.c	/^utf8decode(const char *c, long *u, size_t clen)$/;"	f	typeref:typename:size_t	file:
+utf8decodebyte	dwm/drw.c	/^utf8decodebyte(const char c, size_t *i)$/;"	f	typeref:typename:long	file:
+utf8validate	dwm/drw.c	/^utf8validate(long *u, size_t i)$/;"	f	typeref:typename:size_t	file:
+utfbyte	dwm/drw.c	/^static const unsigned char utfbyte[UTF_SIZ + 1] = {0x80,    0, 0xC0, 0xE0, 0xF0};$/;"	v	typeref:typename:const unsigned char[]	file:
+utfmask	dwm/drw.c	/^static const unsigned char utfmask[UTF_SIZ + 1] = {0xC0, 0x80, 0xE0, 0xF0, 0xF8};$/;"	v	typeref:typename:const unsigned char[]	file:
+utfmax	dwm/drw.c	/^static const long utfmax[UTF_SIZ + 1] = {0x10FFFF, 0x7F, 0x7FF, 0xFFFF, 0x10FFFF};$/;"	v	typeref:typename:const long[]	file:
+utfmin	dwm/drw.c	/^static const long utfmin[UTF_SIZ + 1] = {       0,    0,  0x80,  0x800,  0x10000};$/;"	v	typeref:typename:const long[]	file:
+v	dwm/dwm.c	/^	const void *v;$/;"	m	union:__anon80d5a0d5060a	typeref:typename:const void *	file:
+v=	bin/pipesanimation	/^v=()$/;"	f
+view	dwm/dwm.c	/^view(const Arg *arg)$/;"	f	typeref:typename:void
+w	dwm/drw.h	/^	unsigned int w, h;$/;"	m	struct:__anon80d30d7f0308	typeref:typename:unsigned int
+w	dwm/dwm.c	/^	int x, y, w, h;$/;"	m	struct:Client	typeref:typename:int	file:
+welcomemsg	larbs.sh	/^welcomemsg() { \\$/;"	f
+wh	dwm/dwm.c	/^	int wx, wy, ww, wh;   \/* window area  *\/$/;"	m	struct:Monitor	typeref:typename:int	file:
+win	dwm/dwm.c	/^	Window win;$/;"	m	struct:Client	typeref:typename:Window	file:
+wintoclient	dwm/dwm.c	/^wintoclient(Window w)$/;"	f	typeref:typename:Client *
+wintomon	dwm/dwm.c	/^wintomon(Window w)$/;"	f	typeref:typename:Monitor *
+wmatom	dwm/dwm.c	/^static Atom wmatom[WMLast], netatom[NetLast];$/;"	v	typeref:typename:Atom[]	file:
+wmcheckwin	dwm/dwm.c	/^static Window root, wmcheckwin;$/;"	v	typeref:typename:Window	file:
+writestatus	dwmblocks/dwmblocks.c	/^static void (*writestatus) () = setroot;$/;"	v	typeref:typename:void (*)()	file:
+ww	dwm/dwm.c	/^	int wx, wy, ww, wh;   \/* window area  *\/$/;"	m	struct:Monitor	typeref:typename:int	file:
+wx	dwm/dwm.c	/^	int wx, wy, ww, wh;   \/* window area  *\/$/;"	m	struct:Monitor	typeref:typename:int	file:
+wy	dwm/dwm.c	/^	int wx, wy, ww, wh;   \/* window area  *\/$/;"	m	struct:Monitor	typeref:typename:int	file:
+x	dwm/dwm.c	/^	int x, y, w, h;$/;"	m	struct:Client	typeref:typename:int	file:
+xerror	dwm/dwm.c	/^xerror(Display *dpy, XErrorEvent *ee)$/;"	f	typeref:typename:int
+xerrordummy	dwm/dwm.c	/^xerrordummy(Display *dpy, XErrorEvent *ee)$/;"	f	typeref:typename:int
+xerrorstart	dwm/dwm.c	/^xerrorstart(Display *dpy, XErrorEvent *ee)$/;"	f	typeref:typename:int
+xerrorxlib	dwm/dwm.c	/^static int (*xerrorxlib)(Display *, XErrorEvent *);$/;"	v	typeref:typename:int (*)(Display *,XErrorEvent *)	file:
+xfont	dwm/drw.h	/^	XftFont *xfont;$/;"	m	struct:Fnt	typeref:typename:XftFont *
+xfont_create	dwm/drw.c	/^xfont_create(Drw *drw, const char *fontname, FcPattern *fontpattern)$/;"	f	typeref:typename:Fnt *	file:
+xfont_free	dwm/drw.c	/^xfont_free(Fnt *font)$/;"	f	typeref:typename:void	file:
+y	dwm/dwm.c	/^	int x, y, w, h;$/;"	m	struct:Client	typeref:typename:int	file:
+zoom	dwm/dwm.c	/^zoom(const Arg *arg)$/;"	f	typeref:typename:void
