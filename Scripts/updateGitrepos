@@ -1,6 +1,0 @@
-#!/bin/zsh
-for d in /home/dragomundo/Gitrepos/ ; 
-	do (cd "$d" && ( 
-		for repo in ./*/ ; 
-		do (cd "$repo" && ls -al); done) done
-		

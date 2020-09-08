@@ -1,4 +1,0 @@
-#!/bin/bash
-flex ~/Projects/LangStruct/calculator.l
-bison -d calculator.y
-gcc calculator.tab.c lex.yy.c -lfl -o calculator

@@ -1,4 +1,0 @@
-#!/bin/bash
-
-ssh -i ~/.ssh/id_rsa ian@3.13.206.39 -p 13195
-
