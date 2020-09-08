@@ -1,4 +1,0 @@
-#!/bin/bash
-scp -i /home/dragomundo/.ssh/dragomundoh /home/dragomundo/RentalWeb_war.war dragomundoh@35.209.36.247:/home/dragomundoh/
-ssh -i /home/dragomundo/.ssh/dragomundoh dragomundoh@35.209.36.247
-
